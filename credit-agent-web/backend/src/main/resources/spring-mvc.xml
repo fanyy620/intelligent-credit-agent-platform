@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SpringMVC 子容器配置（DispatcherServlet）
+  职责：Controller 扫描 / 注解驱动(JSON) / 登录拦截器
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- 只扫描 Controller（与根容器互补，经典父子容器分离） -->
+    <context:component-scan base-package="com.credit.web.controller" use-default-filters="false">
+        <context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <!-- 全局异常处理 @RestControllerAdvice -->
+    <context:component-scan base-package="com.credit.web.common" use-default-filters="false">
+        <context:include-filter type="annotation"
+                                expression="org.springframework.web.bind.annotation.RestControllerAdvice"/>
+    </context:component-scan>
+
+    <!-- 注解驱动：classpath 存在 jackson-databind 时自动注册 JSON 消息转换器 -->
+    <mvc:annotation-driven/>
+
+    <!-- 登录令牌拦截器：顶层声明 + ref 引用（嵌套 bean 不走属性注入，经典坑） -->
+    <bean id="tokenInterceptor" class="com.credit.web.interceptor.TokenInterceptor">
+        <property name="jwtSecret" value="${jwt.secret}"/>
+        <property name="redisUtil" ref="redisUtil"/>
+    </bean>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/auth/login"/>
+            <mvc:exclude-mapping path="/health"/>
+            <ref bean="tokenInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.credit.web.mapper.BizChatMessageMapper">
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO biz_chat_message (session_id, role, content, intent, intent_zh)
+        VALUES (#{sessionId}, #{role}, #{content}, #{intent}, #{intentZh})
+    </insert>
+
+    <select id="selectBySessionId" resultType="com.credit.web.entity.BizChatMessage">
+        SELECT * FROM biz_chat_message
+        WHERE session_id = #{sessionId}
+        ORDER BY id ASC
+    </select>
+</mapper>

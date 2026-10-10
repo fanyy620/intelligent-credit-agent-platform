@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.credit.web.mapper.BizProductMapper">
+
+    <select id="selectAllOnSale" resultType="com.credit.web.entity.BizProduct">
+        SELECT * FROM biz_product WHERE status = 1 ORDER BY category, id
+    </select>
+
+    <select id="selectById" resultType="com.credit.web.entity.BizProduct">
+        SELECT * FROM biz_product WHERE id = #{id}
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO biz_product
+            (product_code, name, category, min_amount, max_amount,
+             min_term_months, max_term_months, annual_rate_min, annual_rate_max,
+             approval_hours, min_age, max_age, min_monthly_income, min_credit_score,
+             allowed_purposes, tags, description, status)
+        VALUES
+            (#{productCode}, #{name}, #{category}, #{minAmount}, #{maxAmount},
+             #{minTermMonths}, #{maxTermMonths}, #{annualRateMin}, #{annualRateMax},
+             #{approvalHours}, #{minAge}, #{maxAge}, #{minMonthlyIncome}, #{minCreditScore},
+             #{allowedPurposes}, #{tags}, #{description}, #{status})
+    </insert>
+
+    <update id="updateById">
+        UPDATE biz_product
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="category != null">category = #{category},</if>
+            <if test="minAmount != null">min_amount = #{minAmount},</if>
+            <if test="maxAmount != null">max_amount = #{maxAmount},</if>
+            <if test="minTermMonths != null">min_term_months = #{minTermMonths},</if>
+            <if test="maxTermMonths != null">max_term_months = #{maxTermMonths},</if>
+            <if test="annualRateMin != null">annual_rate_min = #{annualRateMin},</if>
+            <if test="annualRateMax != null">annual_rate_max = #{annualRateMax},</if>
+            <if test="approvalHours != null">approval_hours = #{approvalHours},</if>
+            <if test="minAge != null">min_age = #{minAge},</if>
+            <if test="maxAge != null">max_age = #{maxAge},</if>
+            <if test="minMonthlyIncome != null">min_monthly_income = #{minMonthlyIncome},</if>
+            <if test="minCreditScore != null">min_credit_score = #{minCreditScore},</if>
+            <if test="allowedPurposes != null">allowed_purposes = #{allowedPurposes},</if>
+            <if test="tags != null">tags = #{tags},</if>
+            <if test="description != null">description = #{description},</if>
+            <if test="status != null">status = #{status},</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM biz_product WHERE id = #{id}
+    </delete>
+</mapper>

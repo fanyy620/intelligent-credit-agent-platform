@@ -1,0 +1,1163 @@
+{
+  "meta": {
+    "run_at": "2026-07-25 18:43:41",
+    "llm_provider": "kimi",
+    "llm_backend": "KimiClient",
+    "llm_model": "kimi-for-coding-highspeed",
+    "llm_base_url_host": "agent-gw.kimi.com",
+    "llm_timeout_s": 60.0,
+    "llm_max_tokens": 2048,
+    "weights": {
+      "amount": 0.3,
+      "rate": 0.3,
+      "term": 0.2,
+      "speed": 0.2,
+      "semantic": 0.25
+    },
+    "catalog_size": 8,
+    "catalog_names": [
+      "信享贷",
+      "薪易贷",
+      "极速信用贷",
+      "学子助学贷",
+      "兴业经营贷",
+      "税易贷",
+      "安居房抵贷",
+      "车易贷"
+    ],
+    "memory_backend": "memory+memory",
+    "case": {
+      "customer": "华创精密制造有限公司（制造业）",
+      "turn1": "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品",
+      "turn2": "把推荐的Top1写成朋友圈营销文案"
+    },
+    "token_usage_total": {
+      "prompt_tokens": 4232,
+      "completion_tokens": 3751,
+      "total_tokens": 7983
+    }
+  },
+  "llm_calls": [
+    {
+      "layer": "classify_intent",
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：判断用户一句话的意图，从下列 10 个标签中选【唯一】最贴切的。\n1. PRODUCT_CONSULT（产品咨询）：泛泛了解贷款产品种类、特点、差异，尚未给出自身条件\n2. RATE_QUERY（利率查询）：询问具体产品或某类贷款的利率、利息、月供成本\n3. CREDIT_RECOMMEND（授信推荐）：给出自身条件（收入/用途/金额/征信等），希望推荐或评估可贷产品\n4. LIMIT_QUERY（额度咨询）：单独追问额度上限、能贷多少、提额\n5. APPLY_PROCESS（申请流程）：询问申请步骤、入口、审批时长、签约放款流程\n6. REPAYMENT（还款方式）：询问还款方式、月供、提前还款、逾期后果\n7. COPYWRITING（文案生成）：要求生成或修改营销文案、朋友圈、海报语、短信话术\n8. MATERIALS（材料咨询）：询问申请所需材料、证明、资质文件\n9. CHITCHAT（闲聊）：打招呼、感谢、与信贷无关的闲聊\n10. HUMAN_AGENT（转人工）：明确要求人工客服、投诉、对机器人不满\n\n输出契约：只输出一行 JSON：{\"intent\": \"标签编码\", \"reason\": \"不超过20字的判别理由\"}。intent 取值必须原样来自上表编码；拿不准时输出 CHITCHAT。"
+        },
+        {
+          "role": "user",
+          "content": "你们行的经营贷和消费贷有什么区别"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"PRODUCT_CONSULT\", \"reason\": \"泛泛比较产品差异\"}"
+        },
+        {
+          "role": "user",
+          "content": "税易贷的年化利率最低多少"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"RATE_QUERY\", \"reason\": \"询问具体产品利率\"}"
+        },
+        {
+          "role": "user",
+          "content": "我最多能贷多少"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"LIMIT_QUERY\", \"reason\": \"单问额度上限，未给条件\"}"
+        },
+        {
+          "role": "user",
+          "content": "我们是制造业企业，需要200万流动资金贷款，期限12个月，请帮我推荐合适的信贷产品"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"CREDIT_RECOMMEND\", \"reason\": \"给出自身条件求推荐\"}"
+        },
+        {
+          "role": "user",
+          "content": "帮我写一段税易贷的朋友圈文案"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"COPYWRITING\", \"reason\": \"要求生成营销文案\"}"
+        },
+        {
+          "role": "user",
+          "content": "在吗"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"CHITCHAT\", \"reason\": \"打招呼，无业务诉求\"}"
+        },
+        {
+          "role": "user",
+          "content": "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品"
+        }
+      ],
+      "latency_s": 4.236,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 594,
+        "completion_tokens": 147,
+        "total_tokens": 741,
+        "completion_tokens_details": {
+          "reasoning_tokens": 125
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"intent\": \"CREDIT_RECOMMEND\", \"reason\": \"给出企业条件求产品推荐\"}"
+    },
+    {
+      "layer": "extract_slots",
+      "temperature": 1.0,
+      "max_tokens": 1536,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：从用户话语中抽取信贷业务槽位，只输出一个 JSON 对象。\n允许的键（没有提及的键一律不输出）：amount, term_months, purpose, occupation, monthly_income, age, credit_status, credit_score。\n取值约定：amount/monthly_income 为数值（单位：元，例如 20万 → 200000）；term_months/age/credit_score 为整数（期限单位：月，例如 3年 → 36）；purpose 限于：经营/周转/进货/消费/装修/教育/留学/旅游/医疗/购车；occupation 限于：上班族/个体户/企业主/自由职业/学生；credit_status 限于：良好/一般/有逾期。\n纪律：只抽取用户明确说出的信息，禁止推测、禁止编造、禁止输出 schema 之外的键。"
+        },
+        {
+          "role": "user",
+          "content": "我月收入1万5，想借20万装修房子，3年内还清，征信良好"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"monthly_income\": 15000, \"amount\": 200000, \"purpose\": \"装修\", \"term_months\": 36, \"credit_status\": \"良好\"}"
+        },
+        {
+          "role": "user",
+          "content": "我们是制造业企业，需要200万流动资金贷款，期限12个月"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"amount\": 2000000, \"term_months\": 12, \"purpose\": \"经营\", \"occupation\": \"企业主\"}"
+        },
+        {
+          "role": "user",
+          "content": "你们有什么贷款产品"
+        },
+        {
+          "role": "assistant",
+          "content": "{}"
+        },
+        {
+          "role": "user",
+          "content": "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品"
+        }
+      ],
+      "latency_s": 5.954,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 397,
+        "completion_tokens": 212,
+        "total_tokens": 609,
+        "completion_tokens_details": {
+          "reasoning_tokens": 189
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"amount\":2000000,\"term_months\":12,\"purpose\":\"周转\",\"occupation\":\"企业主\"}"
+    },
+    {
+      "layer": "explain_recommendation",
+      "temperature": 1.0,
+      "max_tokens": 1280,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：用【一句话】（40 字以内）说明为什么向该客户推荐此产品。\n纪律：只能引用下面给出的客户条件与产品名称；不得出现任何产品数值（额度、利率、期限、时效由系统另行展示）；不得承诺审批结果。"
+        },
+        {
+          "role": "user",
+          "content": "产品：兴业经营贷；客户条件：{\"amount\": 500000, \"purpose\": \"进货\", \"occupation\": \"个体户\"}"
+        },
+        {
+          "role": "assistant",
+          "content": "个体户进货用款50万，该产品正是面向经营场景的纯信用贷款。"
+        },
+        {
+          "role": "user",
+          "content": "产品：税易贷；客户条件：{\"amount\": 2000000.0, \"term_months\": 12, \"purpose\": \"周转\", \"occupation\": \"企业主\"}"
+        }
+      ],
+      "latency_s": 17.872,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 222,
+        "completion_tokens": 699,
+        "total_tokens": 921,
+        "completion_tokens_details": {
+          "reasoning_tokens": 681
+        }
+      },
+      "finish_reason": "stop",
+      "output": "税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。"
+    },
+    {
+      "layer": "review_compliance",
+      "temperature": 1.0,
+      "max_tokens": 1280,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：审核以下银行营销文案是否符合监管与行内宣传规范。\n违规情形包括但不限于：承诺保本保息、承诺百分百下款或通过审批、宣称无视征信/黑白户均可、暗示内部关系可操作、隐瞒费用、使用“首选/最佳/第一/顶级”等绝对化用语做产品宣传、夸大额度或压低利率误导客户。\n边界（易误判点）：产品推荐列表中的排序标签（Top1/Top2 等中性序号）、顾问对话中基于产品事实的客观介绍与推荐理由，不属于绝对化用语，不得据此判违规。\n判定口径：拿不准时一律视为违规（宁严勿宽）。\n输出契约：只输出一行 JSON：{\"verdict\": \"PASS\" 或 \"BLOCK\", \"reason\": \"不超过20字理由\"}。"
+        },
+        {
+          "role": "user",
+          "content": "信享贷最高可借30万，年化利率低至4.8%起，具体以审批结果为准"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"verdict\": \"PASS\", \"reason\": \"如实报价且附审批提示\"}"
+        },
+        {
+          "role": "user",
+          "content": "这款产品保证都能批下来，不管征信多差都能做"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"verdict\": \"BLOCK\", \"reason\": \"承诺必过且无视征信\"}"
+        },
+        {
+          "role": "user",
+          "content": "根据您的情况，为您推荐以下产品（按综合评分排序）：\n  Top1 税易贷（经营贷）综合分 0.614\n      额度10-300万，年化3.85%-6.5%，6-36个月，最快48小时审批\n      推荐理由：您为企业主且用于经营，税易贷基于纳税记录提供融资支持。\n以上额度和利率均以最终审批为准。"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"verdict\": \"PASS\", \"reason\": \"排序标签为中性序号，客观介绍\"}"
+        },
+        {
+          "role": "user",
+          "content": "根据您的情况，为您推荐以下产品（按综合评分排序）：\n  Top1 税易贷（经营贷）综合分 0.589\n      额度10-300万，年化3.85%-6.5%，6-36个月，最快48小时审批\n      推荐理由：税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。\n以上额度和利率均以最终审批为准。"
+        }
+      ],
+      "latency_s": 12.716,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 533,
+        "completion_tokens": 560,
+        "total_tokens": 1093,
+        "completion_tokens_details": {
+          "reasoning_tokens": 541
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"verdict\": \"PASS\", \"reason\": \"排序标签中性，内容客观合规\"}"
+    },
+    {
+      "layer": "extract_site_actions",
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：理解用户一句话的【网站操作意图】，输出要执行的动作列表（JSON）。\n动作白名单（type 与参数）：\n- navigate {\"path\": \"...\"}：打开页面，路径限 /dashboard /customer /product /recommend /copy /chat /profile\n- search_customer {\"keyword\": \"...\"}：跳企业客户页并按关键词筛选（模糊匹配企业名/行业）\n- view_customer {\"name\": \"...\"}：查看某企业客户详情，name 用原话关键称谓\n- open_product {\"name\": \"...\"}：查看某信贷产品\n- generate_copy {\"product_name\": \"...(可选)\", \"channel\": \"...(可选)\"}：发起营销文案生成\n- show_stats {}：查看今日看板数据\n- recommend {}：授信推荐（用户给出用途/金额/期限等条件求推荐时用）\n- none {}：纯对话，无需任何页面动作\n输出契约：只输出一行 JSON：{\"actions\": [{\"type\": \"...\", \"params\": {...}}]}；纯对话输出 {\"actions\": [{\"type\": \"none\", \"params\": {}}]}；最多 2 个动作，按执行顺序排列；type 不得超出白名单。"
+        },
+        {
+          "role": "user",
+          "content": "帮我看看华创那家公司情况"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"view_customer\", \"params\": {\"name\": \"华创\"}}]}"
+        },
+        {
+          "role": "user",
+          "content": "最近业务怎么样"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"show_stats\", \"params\": {}}]}"
+        },
+        {
+          "role": "user",
+          "content": "我想发个朋友圈宣传下税易贷"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"generate_copy\", \"params\": {\"product_name\": \"税易贷\", \"channel\": \"朋友圈\"}}]}"
+        },
+        {
+          "role": "user",
+          "content": "制造业要200万周转一年推荐下"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"recommend\", \"params\": {}}]}"
+        },
+        {
+          "role": "user",
+          "content": "去产品页看看"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"navigate\", \"params\": {\"path\": \"/product\"}}]}"
+        },
+        {
+          "role": "user",
+          "content": "你好"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"none\", \"params\": {}}]}"
+        },
+        {
+          "role": "user",
+          "content": "当前页面：/chat\n用户说：我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品"
+        }
+      ],
+      "latency_s": 4.274,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 553,
+        "completion_tokens": 124,
+        "total_tokens": 677,
+        "completion_tokens_details": {
+          "reasoning_tokens": 108
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"actions\": [{\"type\": \"recommend\", \"params\": {}}]}"
+    },
+    {
+      "layer": "classify_intent",
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：判断用户一句话的意图，从下列 10 个标签中选【唯一】最贴切的。\n1. PRODUCT_CONSULT（产品咨询）：泛泛了解贷款产品种类、特点、差异，尚未给出自身条件\n2. RATE_QUERY（利率查询）：询问具体产品或某类贷款的利率、利息、月供成本\n3. CREDIT_RECOMMEND（授信推荐）：给出自身条件（收入/用途/金额/征信等），希望推荐或评估可贷产品\n4. LIMIT_QUERY（额度咨询）：单独追问额度上限、能贷多少、提额\n5. APPLY_PROCESS（申请流程）：询问申请步骤、入口、审批时长、签约放款流程\n6. REPAYMENT（还款方式）：询问还款方式、月供、提前还款、逾期后果\n7. COPYWRITING（文案生成）：要求生成或修改营销文案、朋友圈、海报语、短信话术\n8. MATERIALS（材料咨询）：询问申请所需材料、证明、资质文件\n9. CHITCHAT（闲聊）：打招呼、感谢、与信贷无关的闲聊\n10. HUMAN_AGENT（转人工）：明确要求人工客服、投诉、对机器人不满\n\n输出契约：只输出一行 JSON：{\"intent\": \"标签编码\", \"reason\": \"不超过20字的判别理由\"}。intent 取值必须原样来自上表编码；拿不准时输出 CHITCHAT。"
+        },
+        {
+          "role": "user",
+          "content": "你们行的经营贷和消费贷有什么区别"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"PRODUCT_CONSULT\", \"reason\": \"泛泛比较产品差异\"}"
+        },
+        {
+          "role": "user",
+          "content": "税易贷的年化利率最低多少"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"RATE_QUERY\", \"reason\": \"询问具体产品利率\"}"
+        },
+        {
+          "role": "user",
+          "content": "我最多能贷多少"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"LIMIT_QUERY\", \"reason\": \"单问额度上限，未给条件\"}"
+        },
+        {
+          "role": "user",
+          "content": "我们是制造业企业，需要200万流动资金贷款，期限12个月，请帮我推荐合适的信贷产品"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"CREDIT_RECOMMEND\", \"reason\": \"给出自身条件求推荐\"}"
+        },
+        {
+          "role": "user",
+          "content": "帮我写一段税易贷的朋友圈文案"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"COPYWRITING\", \"reason\": \"要求生成营销文案\"}"
+        },
+        {
+          "role": "user",
+          "content": "在吗"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"intent\": \"CHITCHAT\", \"reason\": \"打招呼，无业务诉求\"}"
+        },
+        {
+          "role": "user",
+          "content": "把推荐的Top1写成朋友圈营销文案"
+        }
+      ],
+      "latency_s": 2.385,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 587,
+        "completion_tokens": 61,
+        "total_tokens": 648,
+        "cached_tokens": 512,
+        "completion_tokens_details": {
+          "reasoning_tokens": 42
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"intent\": \"COPYWRITING\", \"reason\": \"要求生成朋友圈营销文案\"}"
+    },
+    {
+      "layer": "gen_copy_template",
+      "temperature": 1.0,
+      "max_tokens": 2048,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：为指定贷款产品写一段朋友圈推广文案【模板】，80 字以内。\n硬性要求：\n1) 严禁出现任何阿拉伯数字与数值表述，所有数值一律用槽位表示，可选槽位仅限：{product_name} {category} {max_amount} {min_amount} {rate_min} {rate_max} {min_term} {max_term} {approval_hours}；\n2) 不得承诺保本保息、百分百下款、无视征信、内部渠道；不得使用“首选/最佳/第一/顶级/唯一”等绝对化用语（违反广告法）；\n3) 模板中保留 {product_name} 槽位，不要直接写死产品名。"
+        },
+        {
+          "role": "user",
+          "content": "产品：信享贷，语气：亲切专业"
+        },
+        {
+          "role": "assistant",
+          "content": "【{product_name}】{category}新选择：额度最高{max_amount}，年化利率低至{rate_min}起，{min_term}-{max_term}个月灵活期限，最快{approval_hours}小时出审批结果。线上申请，流程透明。"
+        },
+        {
+          "role": "user",
+          "content": "产品：税易贷，语气：亲切专业"
+        }
+      ],
+      "latency_s": 25.179,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 300,
+        "completion_tokens": 1077,
+        "total_tokens": 1377,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1026
+        }
+      },
+      "finish_reason": "stop",
+      "output": "【{product_name}】以税定贷，额度至高{max_amount}，利率低至{rate_min}，{min_term}-{max_term}个月灵活周期，快至{approval_hours}小时审批。纳税良好，融资无忧。"
+    },
+    {
+      "layer": "review_compliance",
+      "temperature": 1.0,
+      "max_tokens": 1280,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：审核以下银行营销文案是否符合监管与行内宣传规范。\n违规情形包括但不限于：承诺保本保息、承诺百分百下款或通过审批、宣称无视征信/黑白户均可、暗示内部关系可操作、隐瞒费用、使用“首选/最佳/第一/顶级”等绝对化用语做产品宣传、夸大额度或压低利率误导客户。\n边界（易误判点）：产品推荐列表中的排序标签（Top1/Top2 等中性序号）、顾问对话中基于产品事实的客观介绍与推荐理由，不属于绝对化用语，不得据此判违规。\n判定口径：拿不准时一律视为违规（宁严勿宽）。\n输出契约：只输出一行 JSON：{\"verdict\": \"PASS\" 或 \"BLOCK\", \"reason\": \"不超过20字理由\"}。"
+        },
+        {
+          "role": "user",
+          "content": "信享贷最高可借30万，年化利率低至4.8%起，具体以审批结果为准"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"verdict\": \"PASS\", \"reason\": \"如实报价且附审批提示\"}"
+        },
+        {
+          "role": "user",
+          "content": "这款产品保证都能批下来，不管征信多差都能做"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"verdict\": \"BLOCK\", \"reason\": \"承诺必过且无视征信\"}"
+        },
+        {
+          "role": "user",
+          "content": "根据您的情况，为您推荐以下产品（按综合评分排序）：\n  Top1 税易贷（经营贷）综合分 0.614\n      额度10-300万，年化3.85%-6.5%，6-36个月，最快48小时审批\n      推荐理由：您为企业主且用于经营，税易贷基于纳税记录提供融资支持。\n以上额度和利率均以最终审批为准。"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"verdict\": \"PASS\", \"reason\": \"排序标签为中性序号，客观介绍\"}"
+        },
+        {
+          "role": "user",
+          "content": "【税易贷】以税定贷，额度至高300万，利率低至3.85%，6-36个月灵活周期，快至48小时审批。纳税良好，融资无忧。\n*具体额度、利率及审批结果以银行最终审核为准，请理性借贷。"
+        }
+      ],
+      "latency_s": 17.388,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 500,
+        "completion_tokens": 701,
+        "total_tokens": 1201,
+        "cached_tokens": 256,
+        "completion_tokens_details": {
+          "reasoning_tokens": 684
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"verdict\": \"PASS\", \"reason\": \"客观介绍产品且有免责声明\"}"
+    },
+    {
+      "layer": "extract_site_actions",
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是南洋商业银行（中国）的智能信贷顾问，服务小微企业主、个体工商户与个人客户，提供贷款产品咨询、授信方案推荐与合规营销文案服务。风格要求：专业、稳健、精炼；不夸大收益，不承诺审批结果，不编造任何数字。\n\n你的任务：理解用户一句话的【网站操作意图】，输出要执行的动作列表（JSON）。\n动作白名单（type 与参数）：\n- navigate {\"path\": \"...\"}：打开页面，路径限 /dashboard /customer /product /recommend /copy /chat /profile\n- search_customer {\"keyword\": \"...\"}：跳企业客户页并按关键词筛选（模糊匹配企业名/行业）\n- view_customer {\"name\": \"...\"}：查看某企业客户详情，name 用原话关键称谓\n- open_product {\"name\": \"...\"}：查看某信贷产品\n- generate_copy {\"product_name\": \"...(可选)\", \"channel\": \"...(可选)\"}：发起营销文案生成\n- show_stats {}：查看今日看板数据\n- recommend {}：授信推荐（用户给出用途/金额/期限等条件求推荐时用）\n- none {}：纯对话，无需任何页面动作\n输出契约：只输出一行 JSON：{\"actions\": [{\"type\": \"...\", \"params\": {...}}]}；纯对话输出 {\"actions\": [{\"type\": \"none\", \"params\": {}}]}；最多 2 个动作，按执行顺序排列；type 不得超出白名单。"
+        },
+        {
+          "role": "user",
+          "content": "帮我看看华创那家公司情况"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"view_customer\", \"params\": {\"name\": \"华创\"}}]}"
+        },
+        {
+          "role": "user",
+          "content": "最近业务怎么样"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"show_stats\", \"params\": {}}]}"
+        },
+        {
+          "role": "user",
+          "content": "我想发个朋友圈宣传下税易贷"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"generate_copy\", \"params\": {\"product_name\": \"税易贷\", \"channel\": \"朋友圈\"}}]}"
+        },
+        {
+          "role": "user",
+          "content": "制造业要200万周转一年推荐下"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"recommend\", \"params\": {}}]}"
+        },
+        {
+          "role": "user",
+          "content": "去产品页看看"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"navigate\", \"params\": {\"path\": \"/product\"}}]}"
+        },
+        {
+          "role": "user",
+          "content": "你好"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"actions\": [{\"type\": \"none\", \"params\": {}}]}"
+        },
+        {
+          "role": "user",
+          "content": "当前页面：/chat\n用户说：把推荐的Top1写成朋友圈营销文案"
+        }
+      ],
+      "latency_s": 19.461,
+      "ok": true,
+      "usage": {
+        "prompt_tokens": 546,
+        "completion_tokens": 170,
+        "total_tokens": 716,
+        "cached_tokens": 512,
+        "completion_tokens_details": {
+          "reasoning_tokens": 150
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        }
+      },
+      "finish_reason": "stop",
+      "output": "{\"actions\": [{\"type\": \"generate_copy\", \"params\": {\"channel\": \"朋友圈\"}}]}"
+    }
+  ],
+  "method_calls": [
+    {
+      "method": "classify_intent",
+      "args": [
+        "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品"
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": [
+        "CREDIT_RECOMMEND",
+        "kimi: prompt 路由"
+      ],
+      "latency_s": 4.236
+    },
+    {
+      "method": "extract_slots",
+      "args": [
+        "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品"
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": {
+        "amount": 2000000.0,
+        "term_months": 12,
+        "purpose": "周转",
+        "occupation": "企业主"
+      },
+      "latency_s": 5.954
+    },
+    {
+      "method": "explain_recommendation",
+      "args": [
+        "税易贷",
+        {
+          "amount": 2000000.0,
+          "term_months": 12,
+          "purpose": "周转",
+          "occupation": "企业主"
+        }
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": "税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。",
+      "latency_s": 17.873
+    },
+    {
+      "method": "review_compliance",
+      "args": [
+        "根据您的情况，为您推荐以下产品（按综合评分排序）：\n  Top1 税易贷（经营贷）综合分 0.589\n      额度10-300万，年化3.85%-6.5%，6-36个月，最快48小时审批\n      推荐理由：税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。\n以上额度和利率均以最终审批为准。"
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": true,
+      "latency_s": 12.717
+    },
+    {
+      "method": "extract_site_actions",
+      "args": [
+        "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品"
+      ],
+      "kwargs": {
+        "page": "/chat"
+      },
+      "ok": true,
+      "output": [
+        {
+          "type": "recommend",
+          "params": {}
+        }
+      ],
+      "latency_s": 4.274
+    },
+    {
+      "method": "classify_intent",
+      "args": [
+        "把推荐的Top1写成朋友圈营销文案"
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": [
+        "COPYWRITING",
+        "kimi: prompt 路由"
+      ],
+      "latency_s": 2.385
+    },
+    {
+      "method": "gen_copy_template",
+      "args": [
+        "税易贷"
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": "【{product_name}】以税定贷，额度至高{max_amount}，利率低至{rate_min}，{min_term}-{max_term}个月灵活周期，快至{approval_hours}小时审批。纳税良好，融资无忧。",
+      "latency_s": 25.179
+    },
+    {
+      "method": "review_compliance",
+      "args": [
+        "【税易贷】以税定贷，额度至高300万，利率低至3.85%，6-36个月灵活周期，快至48小时审批。纳税良好，融资无忧。\n*具体额度、利率及审批结果以银行最终审核为准，请理性借贷。"
+      ],
+      "kwargs": {},
+      "ok": true,
+      "output": true,
+      "latency_s": 17.388
+    },
+    {
+      "method": "extract_site_actions",
+      "args": [
+        "把推荐的Top1写成朋友圈营销文案"
+      ],
+      "kwargs": {
+        "page": "/chat"
+      },
+      "ok": true,
+      "output": [
+        {
+          "type": "generate_copy",
+          "params": {
+            "channel": "朋友圈"
+          }
+        }
+      ],
+      "latency_s": 19.461
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "request": {
+        "session_id": "case-184341",
+        "user_id": "case-huachuang",
+        "message": "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品",
+        "context": {
+          "page": "/chat"
+        }
+      },
+      "stages": {
+        "slots": {
+          "input_text": "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品",
+          "rules_only": {
+            "amount": 2000000.0,
+            "purpose": "周转"
+          },
+          "merged_with_llm": {
+            "amount": 2000000.0,
+            "term_months": 12,
+            "purpose": "周转",
+            "occupation": "企业主"
+          }
+        },
+        "recall": {
+          "query_text": "我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品 周转 企业主 借款200万 期限12个月",
+          "catalog_total": 8,
+          "candidates": [
+            {
+              "name": "税易贷",
+              "category": "经营贷",
+              "rule_passed": true,
+              "rule_reasons": [],
+              "semantic_score": 0.019
+            },
+            {
+              "name": "信享贷",
+              "category": "消费贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "期望金额200万超出最高额度30万",
+                "用途“周转”不在准入用途['消费', '装修', '教育', '旅游', '医疗']内"
+              ],
+              "semantic_score": 0.0
+            },
+            {
+              "name": "薪易贷",
+              "category": "消费贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "期望金额200万超出最高额度20万"
+              ],
+              "semantic_score": 0.0
+            },
+            {
+              "name": "极速信用贷",
+              "category": "消费贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "期望金额200万超出最高额度5万"
+              ],
+              "semantic_score": 0.0
+            },
+            {
+              "name": "学子助学贷",
+              "category": "消费贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "期望金额200万超出最高额度8万",
+                "用途“周转”不在准入用途['教育', '留学']内"
+              ],
+              "semantic_score": 0.0
+            },
+            {
+              "name": "兴业经营贷",
+              "category": "经营贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "期望金额200万超出最高额度100万"
+              ],
+              "semantic_score": 0.0
+            },
+            {
+              "name": "安居房抵贷",
+              "category": "房抵贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "用途“周转”不在准入用途['经营', '装修', '消费']内"
+              ],
+              "semantic_score": 0.0
+            },
+            {
+              "name": "车易贷",
+              "category": "车贷",
+              "rule_passed": false,
+              "rule_reasons": [
+                "期望金额200万超出最高额度50万",
+                "用途“周转”不在准入用途['购车', '买车']内"
+              ],
+              "semantic_score": 0.0
+            }
+          ]
+        },
+        "rerank": {
+          "ranked": [
+            {
+              "name": "税易贷",
+              "breakdown": {
+                "amount_score": 0.775,
+                "rate_score": 0.9306,
+                "term_score": 1.0,
+                "speed_score": 0.3357,
+                "business_score": 0.7788,
+                "semantic_score": 0.019,
+                "final_score": 0.5889
+              },
+              "llm_reason": "税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。"
+            }
+          ]
+        }
+      },
+      "wall_time_s": {
+        "pipeline": 40.78,
+        "site_actions": 4.274,
+        "total": 45.054
+      },
+      "state": {
+        "intent": "CREDIT_RECOMMEND",
+        "intent_zh": "授信推荐",
+        "intent_backend": "prompt_fallback",
+        "intent_detail": "kimi: prompt 路由；LoRA 不可用（模型目录不存在: models\\intent-lora-merged），已降级 Prompt 路由",
+        "answer": "根据您的情况，为您推荐以下产品（按综合评分排序）：\n  Top1 税易贷（经营贷）综合分 0.589\n      额度10-300万，年化3.85%-6.5%，6-36个月，最快48小时审批\n      推荐理由：税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。\n以上额度和利率均以最终审批为准。",
+        "slots": {
+          "amount": 2000000.0,
+          "term_months": 12,
+          "purpose": "周转",
+          "occupation": "企业主"
+        },
+        "recommendation": [
+          {
+            "product": "税易贷",
+            "breakdown": {
+              "amount_score": 0.775,
+              "rate_score": 0.9306,
+              "term_score": 1.0,
+              "speed_score": 0.3357,
+              "business_score": 0.7788,
+              "semantic_score": 0.019,
+              "final_score": 0.5889
+            },
+            "llm_reason": "税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。"
+          }
+        ],
+        "copy_text": null,
+        "copy_template": null,
+        "copy_source": null,
+        "blocked": false,
+        "compliance_regex": [],
+        "compliance_semantic": {
+          "passed": true,
+          "method": "skipped",
+          "hits": []
+        },
+        "memory_read": {
+          "history_len": 0,
+          "history_text": "",
+          "facts": [],
+          "inherited_slots": {}
+        },
+        "memory_facts_written": {
+          "借款用途": "周转",
+          "意向额度": "200万",
+          "最近推荐产品": "税易贷"
+        },
+        "site_actions": [
+          {
+            "type": "recommend",
+            "params": {}
+          }
+        ]
+      },
+      "spans": [
+        {
+          "name": "memory.read",
+          "latency_ms": 0.12,
+          "attrs": {
+            "backend": "memory+memory"
+          }
+        },
+        {
+          "name": "memory.read.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "history_len": 0,
+            "facts": 0,
+            "facts_text": "（无长期记忆）"
+          }
+        },
+        {
+          "name": "intent.route",
+          "latency_ms": 4235.76,
+          "attrs": {
+            "intent": "CREDIT_RECOMMEND",
+            "backend": "prompt_fallback"
+          }
+        },
+        {
+          "name": "slots.extract",
+          "latency_ms": 5954.26,
+          "attrs": {
+            "channel": "rules+llm"
+          }
+        },
+        {
+          "name": "slots.extract.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "slots": {
+              "amount": 2000000.0,
+              "term_months": 12,
+              "purpose": "周转",
+              "occupation": "企业主"
+            }
+          }
+        },
+        {
+          "name": "recall.two_stage",
+          "latency_ms": 0.48,
+          "attrs": {}
+        },
+        {
+          "name": "recall.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "total": 8,
+            "passed": 1
+          }
+        },
+        {
+          "name": "rerank.business",
+          "latency_ms": 17872.57,
+          "attrs": {}
+        },
+        {
+          "name": "compliance.regex",
+          "latency_ms": 0.03,
+          "attrs": {}
+        },
+        {
+          "name": "compliance.semantic",
+          "latency_ms": 12716.52,
+          "attrs": {}
+        },
+        {
+          "name": "compliance.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "regex_hits": 0,
+            "semantic_passed": true,
+            "semantic_method": "skipped",
+            "scene": "dialogue"
+          }
+        },
+        {
+          "name": "memory.write",
+          "latency_ms": 0.21,
+          "attrs": {}
+        },
+        {
+          "name": "memory.write.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "new_facts": {
+              "借款用途": "周转",
+              "意向额度": "200万",
+              "最近推荐产品": "税易贷"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "request": {
+        "session_id": "case-184341",
+        "user_id": "case-huachuang",
+        "message": "把推荐的Top1写成朋友圈营销文案",
+        "context": {
+          "page": "/chat"
+        }
+      },
+      "stages": {
+        "copy": {
+          "llm_template_raw": "【{product_name}】以税定贷，额度至高{max_amount}，利率低至{rate_min}，{min_term}-{max_term}个月灵活周期，快至{approval_hours}小时审批。纳税良好，融资无忧。",
+          "free_numbers_found": [],
+          "render": {
+            "template_used": "【{product_name}】以税定贷，额度至高{max_amount}，利率低至{rate_min}，{min_term}-{max_term}个月灵活周期，快至{approval_hours}小时审批。纳税良好，融资无忧。",
+            "slot_data_from_product_catalog": {
+              "product_name": "税易贷",
+              "category": "经营贷",
+              "max_amount": "300万",
+              "min_amount": "10万",
+              "rate_min": "3.85%",
+              "rate_max": "6.5%",
+              "min_term": "6",
+              "max_term": "36",
+              "approval_hours": "48"
+            },
+            "render_ok": true,
+            "rendered_text": "【税易贷】以税定贷，额度至高300万，利率低至3.85%，6-36个月灵活周期，快至48小时审批。纳税良好，融资无忧。\n*具体额度、利率及审批结果以银行最终审核为准，请理性借贷。"
+          }
+        }
+      },
+      "wall_time_s": {
+        "pipeline": 44.955,
+        "site_actions": 19.461,
+        "total": 64.416
+      },
+      "state": {
+        "intent": "COPYWRITING",
+        "intent_zh": "文案生成",
+        "intent_backend": "prompt_fallback",
+        "intent_detail": "kimi: prompt 路由；LoRA 不可用（模型目录不存在: models\\intent-lora-merged），已降级 Prompt 路由",
+        "answer": "【税易贷】以税定贷，额度至高300万，利率低至3.85%，6-36个月灵活周期，快至48小时审批。纳税良好，融资无忧。\n*具体额度、利率及审批结果以银行最终审核为准，请理性借贷。",
+        "slots": {},
+        "recommendation": [],
+        "copy_text": "【税易贷】以税定贷，额度至高300万，利率低至3.85%，6-36个月灵活周期，快至48小时审批。纳税良好，融资无忧。\n*具体额度、利率及审批结果以银行最终审核为准，请理性借贷。",
+        "copy_template": "【{product_name}】以税定贷，额度至高{max_amount}，利率低至{rate_min}，{min_term}-{max_term}个月灵活周期，快至{approval_hours}小时审批。纳税良好，融资无忧。",
+        "copy_source": "template_fill",
+        "blocked": false,
+        "compliance_regex": [],
+        "compliance_semantic": {
+          "passed": true,
+          "method": "hash-embedding",
+          "hits": []
+        },
+        "memory_read": {
+          "history_len": 2,
+          "history_text": "user: 我们是制造业企业，需要200万流动资金周转一年，请推荐合适产品\nassistant: 根据您的情况，为您推荐以下产品（按综合评分排序）：\n  Top1 税易贷（经营贷）综合分 0.589\n      额度10-300万，年化3.85%-6.5%，6-36个月，最快48小时审批\n      推荐理由：税易贷以企业纳税信用为基础，契合您作为企业主经营周转的需求。\n以上额度和利率均以最终审批为准。",
+          "facts": [
+            {
+              "user_id": "case-huachuang",
+              "fact_key": "意向额度",
+              "fact_value": "200万",
+              "ts": 1784976262.6997812,
+              "similarity": 0.0871
+            },
+            {
+              "user_id": "case-huachuang",
+              "fact_key": "最近推荐产品",
+              "fact_value": "税易贷",
+              "ts": 1784976262.6997812,
+              "similarity": 0.0871
+            },
+            {
+              "user_id": "case-huachuang",
+              "fact_key": "借款用途",
+              "fact_value": "周转",
+              "ts": 1784976262.6997812,
+              "similarity": -0.0542
+            }
+          ],
+          "inherited_slots": {
+            "amount": 2000000.0,
+            "purpose": "周转"
+          }
+        },
+        "memory_facts_written": {},
+        "site_actions": [
+          {
+            "type": "generate_copy",
+            "params": {
+              "channel": "朋友圈"
+            }
+          }
+        ]
+      },
+      "spans": [
+        {
+          "name": "memory.read",
+          "latency_ms": 0.3,
+          "attrs": {
+            "backend": "memory+memory"
+          }
+        },
+        {
+          "name": "memory.read.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "history_len": 2,
+            "facts": 3,
+            "facts_text": "意向额度=200万；最近推荐产品=税易贷；借款用途=周转"
+          }
+        },
+        {
+          "name": "intent.route",
+          "latency_ms": 2385.06,
+          "attrs": {
+            "intent": "COPYWRITING",
+            "backend": "prompt_fallback"
+          }
+        },
+        {
+          "name": "copywriting.rendered",
+          "latency_ms": 0.0,
+          "attrs": {
+            "product": "税易贷",
+            "template_slots": [
+              "product_name",
+              "category",
+              "max_amount",
+              "min_amount",
+              "rate_min",
+              "rate_max",
+              "min_term",
+              "max_term",
+              "approval_hours"
+            ]
+          }
+        },
+        {
+          "name": "node.copywriting",
+          "latency_ms": 25179.74,
+          "attrs": {}
+        },
+        {
+          "name": "compliance.regex",
+          "latency_ms": 0.01,
+          "attrs": {}
+        },
+        {
+          "name": "compliance.semantic",
+          "latency_ms": 17389.33,
+          "attrs": {}
+        },
+        {
+          "name": "compliance.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "regex_hits": 0,
+            "semantic_passed": true,
+            "semantic_method": "hash-embedding",
+            "scene": "copy"
+          }
+        },
+        {
+          "name": "memory.write",
+          "latency_ms": 0.07,
+          "attrs": {}
+        },
+        {
+          "name": "memory.write.done",
+          "latency_ms": 0.0,
+          "attrs": {
+            "new_facts": {}
+          }
+        }
+      ]
+    }
+  ]
+}

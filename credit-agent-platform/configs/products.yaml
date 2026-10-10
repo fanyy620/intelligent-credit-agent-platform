@@ -1,0 +1,147 @@
+# 信贷产品库：字段即“硬性准入规则 + 业务属性”，第一层规则召回直接消费这些字段。
+# 注意：为兼容内置迷你 YAML 解析器，本文件保持“一层平铺”结构，
+#       列表/标签用英文逗号分隔，值中不要出现 '#' 字符。
+products:
+  - id: xinxiangdai
+    name: 信享贷
+    category: 消费贷
+    min_amount: 10000
+    max_amount: 300000
+    min_term_months: 6
+    max_term_months: 36
+    annual_rate_min: 0.048
+    annual_rate_max: 0.096
+    approval_hours: 2
+    min_age: 22
+    max_age: 55
+    min_monthly_income: 4000
+    min_credit_score: 600
+    allowed_purposes: 消费,装修,教育,旅游,医疗
+    tags: 纯信用,线上申请,白领,免抵押
+    description: 面向优质工薪白领的纯信用消费贷款，线上申请免抵押，适合装修教育旅游医疗等大额消费场景
+
+  - id: xinyidai
+    name: 薪易贷
+    category: 消费贷
+    min_amount: 5000
+    max_amount: 200000
+    min_term_months: 3
+    max_term_months: 24
+    annual_rate_min: 0.054
+    annual_rate_max: 0.108
+    approval_hours: 1
+    min_age: 20
+    max_age: 50
+    min_monthly_income: 3000
+    min_credit_score: 550
+    allowed_purposes: 消费,旅游,教育,医疗,周转
+    tags: 工薪,代发工资,快速到账
+    description: 面向代发工资客群的短期小额消费信贷，凭打卡工资即可申请，最快一小时放款
+
+  - id: jisuxinyongdai
+    name: 极速信用贷
+    category: 消费贷
+    min_amount: 1000
+    max_amount: 50000
+    min_term_months: 3
+    max_term_months: 12
+    annual_rate_min: 0.072
+    annual_rate_max: 0.144
+    approval_hours: 0.5
+    min_age: 20
+    max_age: 55
+    min_monthly_income: 2000
+    min_credit_score: 520
+    allowed_purposes: 消费,周转
+    tags: 小额,极速,纯线上,门槛最低
+    description: 小额短期应急信用贷款，全线上自动审批最快三十分钟出结果，门槛低但利率偏高
+
+  - id: xuezizhuxuedai
+    name: 学子助学贷
+    category: 消费贷
+    min_amount: 5000
+    max_amount: 80000
+    min_term_months: 12
+    max_term_months: 60
+    annual_rate_min: 0.036
+    annual_rate_max: 0.049
+    approval_hours: 24
+    min_age: 18
+    max_age: 30
+    min_monthly_income: 0
+    min_credit_score: 500
+    allowed_purposes: 教育,留学
+    tags: 学生,教育分期,低息
+    description: 面向在校学生及留学群体的低息教育专项贷款，支持学费分期与生活费补助
+
+  - id: xingyejingyingdai
+    name: 兴业经营贷
+    category: 经营贷
+    min_amount: 50000
+    max_amount: 1000000
+    min_term_months: 6
+    max_term_months: 60
+    annual_rate_min: 0.0435
+    annual_rate_max: 0.085
+    approval_hours: 24
+    min_age: 22
+    max_age: 60
+    min_monthly_income: 0
+    min_credit_score: 550
+    allowed_purposes: 经营,周转,进货
+    tags: 个体户,小微企业主,营业执照,流水
+    description: 面向个体工商户与小微企业主的经营性贷款，凭营业执照与经营流水申请，用于进货与资金周转
+
+  - id: shuiyidai
+    name: 税易贷
+    category: 经营贷
+    min_amount: 100000
+    max_amount: 3000000
+    min_term_months: 6
+    max_term_months: 36
+    annual_rate_min: 0.0385
+    annual_rate_max: 0.065
+    approval_hours: 48
+    min_age: 23
+    max_age: 60
+    min_monthly_income: 0
+    min_credit_score: 600
+    allowed_purposes: 经营,周转
+    tags: 纳税记录,小微,纯信用,对公
+    description: 依据企业纳税信用记录授信的小微企业纯信用经营贷，纳税等级越高利率越低
+
+  - id: anjufangdidai
+    name: 安居房抵贷
+    category: 房抵贷
+    min_amount: 200000
+    max_amount: 5000000
+    min_term_months: 12
+    max_term_months: 120
+    annual_rate_min: 0.0365
+    annual_rate_max: 0.058
+    approval_hours: 72
+    min_age: 25
+    max_age: 60
+    min_monthly_income: 8000
+    min_credit_score: 580
+    allowed_purposes: 经营,装修,消费
+    tags: 房产抵押,大额,长期,低利率
+    description: 以住宅房产抵押的大额长期贷款，额度高利率低，适合大额装修经营投入等场景，审批需三到五个工作日
+
+  - id: cheyidai
+    name: 车易贷
+    category: 车贷
+    min_amount: 30000
+    max_amount: 500000
+    min_term_months: 12
+    max_term_months: 60
+    annual_rate_min: 0.045
+    annual_rate_max: 0.079
+    approval_hours: 4
+    min_age: 21
+    max_age: 55
+    min_monthly_income: 5000
+    min_credit_score: 560
+    allowed_purposes: 购车,买车
+    tags: 新车,二手车,按揭,经销商合作
+    description: 面向个人购车场景的汽车按揭贷款，支持新车与二手车，合作经销商可现场办理当天提车

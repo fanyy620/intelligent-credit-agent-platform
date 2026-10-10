@@ -1,0 +1,34 @@
+# =====================================================================
+# credit-agent-platform 依赖清单
+#
+# 注意：本项目的 demo（src/demo.py）与全部单测（tests/）在【零第三方依赖】
+# 下即可运行，所有第三方包的 import 均放在函数内或 try/except 中。
+# 下列依赖仅在你需要连接真实外部服务（LLM / PG / Redis / Langfuse）
+# 或进行 LoRA 训练时才需要安装。
+# =====================================================================
+
+# ---------- 运行环境（在线完整能力） ----------
+langchain>=0.2.0          # LLM 调用链抽象（Prompt 路由 / 语义审核增强）
+langgraph>=0.1.0          # Agent 主流程编排（缺失时自动降级为顺序流水线）
+langfuse>=2.40.0          # 全链路可观测（未配置时 tracing 为 no-op）
+redis>=5.0.0              # 短期会话记忆（缺失时降级为进程内 TTL 字典）
+psycopg[binary]>=3.1.0    # PostgreSQL 驱动（缺失时降级为内存向量库）
+pgvector>=0.2.5           # PGVector 向量类型支持
+PyYAML>=6.0.0             # products.yaml 解析（缺失时使用内置迷你解析器）
+pydantic-settings>=2.0.0  # 可选的配置管理（当前 configs/settings.py 用 dataclass 实现，无硬依赖）
+openai>=1.30.0            # 可选：DeepSeek OpenAI 兼容客户端（当前用 urllib 实现，无硬依赖）
+fastmcp>=0.9.0            # 可选：MCP 服务的另一种实现（仓库内置原生 JSON-RPC stdio 实现，零依赖）
+
+# ---------- 开发 / 测试 ----------
+pytest>=8.0.0
+
+# ---------- 训练环境（按需安装；demo 与测试均不需要）----------
+# torch>=2.1.0
+# transformers>=4.40.0
+# peft>=0.10.0
+# datasets>=2.18.0
+# accelerate>=0.28.0
+# deepspeed>=0.14.0        # 可选：多卡训练
+# LLaMA-Factory 建议源码安装：
+#   git clone https://github.com/hiyouga/LLaMA-Factory.git
+#   cd LLaMA-Factory && pip install -e ".[torch,metrics]"

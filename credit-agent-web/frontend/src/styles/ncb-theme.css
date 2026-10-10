@@ -1,0 +1,306 @@
+/* ====================================================================
+   南洋商业银行（NCB）品牌主题（真实官网风格）
+   - Element UI 2.x 关键组件的主色覆盖（theme-chalk 不支持运行时换肤，
+     采用集中式 CSS 覆盖，selector 与 theme-chalk 对齐）
+   - 品牌元素：自绘正红圆章行标（.ncb-mark）、衬线标题（.ncb-serif）
+   色板来源：docs/ncb-style-reference.md（真实 logo 像素取样）
+   主红 #E30000 / hover #F21B1B / active #C00000
+   深藏青 #2B1665 / #1A0D42 —— 品牌色中无金色
+   ==================================================================== */
+
+/* ---------- 品牌元素 ---------- */
+
+/* 自绘正红圆章行标（不使用真实 logo 素材）：
+   正红实心圆 + 白色衬线「南」字，演绎官网「红色圆形印章」意象 */
+.ncb-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #e30000;
+  box-shadow: 0 0 0 3px rgba(227, 0, 0, 0.18);
+  flex-shrink: 0;
+}
+
+.ncb-mark > i {
+  font-style: normal;
+  color: #fff;
+  font-family: "Songti SC", "STSong", "SimSun", serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.ncb-mark.ncb-mark-lg {
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 0 0 4px rgba(227, 0, 0, 0.15);
+}
+
+.ncb-mark.ncb-mark-lg > i {
+  font-size: 23px;
+}
+
+/* 衬线标题工具类（局部点缀，不全站衬线） */
+.ncb-serif {
+  font-family: "Songti SC", "STSong", "SimSun", serif;
+}
+
+.ncb-navy-text {
+  color: #2b1665;
+}
+
+/* 侧边栏行名区 */
+.ncb-logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  overflow: hidden;
+}
+
+.ncb-logo-name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+
+.ncb-logo-sub {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+  transform: scale(0.9);
+  transform-origin: left center;
+}
+
+/* 登录页品牌区 */
+.login-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.login-brand-en {
+  text-align: center;
+  color: #6e6399;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-bottom: 2px;
+}
+
+.login-slogan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  color: #2b1665;
+  font-size: 13px;
+  letter-spacing: 4px;
+  margin: 0 0 20px;
+}
+
+.login-slogan::before,
+.login-slogan::after {
+  content: "";
+  width: 42px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(227, 0, 0, 0.45));
+}
+
+.login-slogan::after {
+  background: linear-gradient(90deg, rgba(227, 0, 0, 0.45), transparent);
+}
+
+/* ---------- 侧边栏菜单（藏青底 + 正红激活态，对应官网红色主导航） ---------- */
+.layout-aside .el-menu {
+  background-color: transparent;
+}
+
+.layout-aside .el-menu-item {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.layout-aside .el-menu-item:hover,
+.layout-aside .el-menu-item:focus {
+  background-color: rgba(227, 0, 0, 0.22) !important;
+  color: #fff;
+}
+
+.layout-aside .el-menu-item.is-active {
+  background: linear-gradient(90deg, rgba(227, 0, 0, 0.95), rgba(227, 0, 0, 0.45)) !important;
+  color: #fff;
+  border-right: 3px solid rgba(255, 255, 255, 0.85);
+}
+
+/* ---------- Element UI 主色覆盖 ---------- */
+
+/* 主按钮 */
+.el-button--primary {
+  background-color: #e30000;
+  border-color: #e30000;
+}
+
+.el-button--primary:hover,
+.el-button--primary:focus {
+  background-color: #f21b1b;
+  border-color: #f21b1b;
+}
+
+.el-button--primary:active {
+  background-color: #c00000;
+  border-color: #c00000;
+}
+
+.el-button--primary.is-disabled,
+.el-button--primary.is-disabled:hover,
+.el-button--primary.is-disabled:focus {
+  background-color: #f29a9a;
+  border-color: #f29a9a;
+}
+
+/* 朴素主按钮 */
+.el-button--primary.is-plain {
+  color: #e30000;
+  background: #fdecec;
+  border-color: #f0bfbf;
+}
+
+.el-button--primary.is-plain:hover,
+.el-button--primary.is-plain:focus {
+  background: #e30000;
+  border-color: #e30000;
+  color: #fff;
+}
+
+/* 文字按钮 */
+.el-button--text {
+  color: #e30000;
+}
+
+.el-button--text:hover,
+.el-button--text:focus {
+  color: #f21b1b;
+}
+
+/* 输入/选择聚焦 */
+.el-input__inner:focus,
+.el-textarea__inner:focus,
+.el-select .el-input.is-focus .el-input__inner,
+.el-input-number.is-focus .el-input__inner {
+  border-color: #e30000;
+}
+
+.el-select-dropdown__item.selected {
+  color: #e30000;
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover,
+.el-dropdown-menu__item:focus {
+  background-color: #fdecec;
+  color: #e30000;
+}
+
+/* 分页（background 模式） */
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #e30000;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #e30000;
+}
+
+.el-pagination .el-pager li.active {
+  color: #e30000;
+}
+
+.el-pagination .el-pager li:hover {
+  color: #e30000;
+}
+
+/* 表格表头（淡紫灰底 + 藏青文字） */
+.el-table th.el-table__cell {
+  background: #f6f4fa;
+  color: #2b1665;
+  font-weight: 600;
+}
+
+/* 主色标签 */
+.el-tag--primary {
+  background-color: #fdecec;
+  border-color: #f0bfbf;
+  color: #e30000;
+}
+
+/* 单选/多选 */
+.el-radio__input.is-checked .el-radio__inner {
+  background: #e30000;
+  border-color: #e30000;
+}
+
+.el-radio__input.is-checked + .el-radio__label {
+  color: #e30000;
+}
+
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background-color: #e30000;
+  border-color: #e30000;
+  box-shadow: -1px 0 0 0 #e30000;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #e30000;
+  border-color: #e30000;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #e30000;
+}
+
+/* 开关 */
+.el-switch.is-checked .el-switch__core {
+  background-color: #e30000;
+  border-color: #e30000;
+}
+
+/* 加载 */
+.el-loading-spinner .path {
+  stroke: #e30000;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #e30000;
+}
+
+/* 时间轴主色节点 */
+.el-timeline-item__node--primary {
+  background-color: #e30000;
+}
+
+/* 选项卡 */
+.el-tabs__item.is-active,
+.el-tabs__item:hover {
+  color: #e30000;
+}
+
+.el-tabs__active-bar {
+  background-color: #e30000;
+}
+
+/* 消息条 */
+.el-message-box__headerbtn:focus .el-message-box__close,
+.el-message-box__headerbtn:hover .el-message-box__close {
+  color: #e30000;
+}
+
+/* 选中文本 */
+::selection {
+  background: rgba(227, 0, 0, 0.16);
+}

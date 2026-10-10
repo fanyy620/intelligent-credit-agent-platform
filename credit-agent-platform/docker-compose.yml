@@ -1,0 +1,39 @@
+# 本地开发依赖：PostgreSQL+PGVector（长期记忆 / 产品向量召回）、Redis（短期会话记忆）
+# 启动：docker compose up -d
+# 初始化：scripts/init_db.sql 挂载到 docker-entrypoint-initdb.d，首次启动自动执行
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: credit-agent-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: credit_agent
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/00_init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d credit_agent"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: credit-agent-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:
+  redisdata:

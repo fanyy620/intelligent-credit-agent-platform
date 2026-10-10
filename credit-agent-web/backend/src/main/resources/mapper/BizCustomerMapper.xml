@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.credit.web.mapper.BizCustomerMapper">
+
+    <sql id="conditionSql">
+        <where>
+            <if test="name != null and name != ''">
+                AND name LIKE CONCAT('%', #{name}, '%')
+            </if>
+            <if test="phone != null and phone != ''">
+                AND phone LIKE CONCAT('%', #{phone}, '%')
+            </if>
+            <if test="occupation != null and occupation != ''">
+                AND occupation = #{occupation}
+            </if>
+        </where>
+    </sql>
+
+    <select id="countByCondition" resultType="long">
+        SELECT COUNT(*) FROM biz_customer
+        <include refid="conditionSql"/>
+    </select>
+
+    <select id="selectPageByCondition" resultType="com.credit.web.entity.BizCustomer">
+        SELECT * FROM biz_customer
+        <include refid="conditionSql"/>
+        ORDER BY id DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="selectById" resultType="com.credit.web.entity.BizCustomer">
+        SELECT * FROM biz_customer WHERE id = #{id}
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO biz_customer
+            (name, gender, phone, age, occupation, monthly_income, credit_status, remark, create_by)
+        VALUES
+            (#{name}, #{gender}, #{phone}, #{age}, #{occupation},
+             #{monthlyIncome}, #{creditStatus}, #{remark}, #{createBy})
+    </insert>
+
+    <update id="updateById">
+        UPDATE biz_customer
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="age != null">age = #{age},</if>
+            <if test="occupation != null">occupation = #{occupation},</if>
+            <if test="monthlyIncome != null">monthly_income = #{monthlyIncome},</if>
+            <if test="creditStatus != null">credit_status = #{creditStatus},</if>
+            <if test="remark != null">remark = #{remark},</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM biz_customer WHERE id = #{id}
+    </delete>
+</mapper>

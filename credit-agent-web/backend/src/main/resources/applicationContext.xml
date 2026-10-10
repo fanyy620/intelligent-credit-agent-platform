@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spring 根容器配置（经典 SSM：一切 Bean 皆 XML 声明）
+  职责：数据源(Druid) / SqlSessionFactory / Mapper扫描 / 事务 /
+        JedisPool / RestTemplate / 业务组件扫描（不含 @Controller）
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 外部配置集中装载 -->
+    <context:property-placeholder location="classpath:jdbc.properties" ignore-unresolvable="false"/>
+
+    <!-- 业务组件扫描：service / agent / util；Controller 由 spring-mvc.xml 扫描（父子容器分离） -->
+    <context:component-scan base-package="com.credit.web">
+        <context:exclude-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!-- ================= 数据源：Druid ================= -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="initialSize" value="${druid.initialSize}"/>
+        <property name="minIdle" value="${druid.minIdle}"/>
+        <property name="maxActive" value="${druid.maxActive}"/>
+        <property name="maxWait" value="${druid.maxWait}"/>
+        <property name="validationQuery" value="SELECT 1"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+    </bean>
+
+    <!-- ================= MyBatis：SqlSessionFactory ================= -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+        <property name="typeAliasesPackage" value="com.credit.web.entity"/>
+    </bean>
+
+    <!-- Mapper 接口扫描：为 com.credit.web.mapper 下的接口自动生成代理 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.credit.web.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <!-- ================= 声明式事务 ================= -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!-- ================= Redis：JedisPool + 操作工具 ================= -->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="${redis.maxTotal}"/>
+        <property name="maxIdle" value="${redis.maxIdle}"/>
+    </bean>
+    <bean id="jedisPool" class="redis.clients.jedis.JedisPool" destroy-method="close">
+        <constructor-arg ref="jedisPoolConfig"/>
+        <constructor-arg value="${redis.host}"/>
+        <constructor-arg value="${redis.port}"/>
+        <constructor-arg value="${redis.timeout}"/>
+        <constructor-arg value="#{'${redis.password}' == '' ? null : '${redis.password}'}"/>
+        <constructor-arg value="${redis.database}"/>
+    </bean>
+    <!-- Redis 操作工具（XML 声明，便于拦截器以 ref 注入） -->
+    <bean id="redisUtil" class="com.credit.web.util.RedisUtil">
+        <property name="jedisPool" ref="jedisPool"/>
+    </bean>
+
+    <!-- ================= RestTemplate：调用 Python Agent ================= -->
+    <bean id="agentRequestFactory" class="org.springframework.http.client.SimpleClientHttpRequestFactory">
+        <property name="connectTimeout" value="${agent.connect-timeout-ms}"/>
+        <property name="readTimeout" value="${agent.read-timeout-ms}"/>
+    </bean>
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <constructor-arg ref="agentRequestFactory"/>
+    </bean>
+</beans>

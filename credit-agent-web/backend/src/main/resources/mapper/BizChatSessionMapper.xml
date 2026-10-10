@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.credit.web.mapper.BizChatSessionMapper">
+
+    <resultMap id="sessionMap" type="com.credit.web.entity.BizChatSession">
+        <id property="id" column="id"/>
+        <result property="sessionNo" column="session_no"/>
+        <result property="userId" column="user_id"/>
+        <result property="customerId" column="customer_id"/>
+        <result property="title" column="title"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="customerName" column="customer_name"/>
+    </resultMap>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO biz_chat_session (session_no, user_id, customer_id, title)
+        VALUES (#{sessionNo}, #{userId}, #{customerId}, #{title})
+    </insert>
+
+    <select id="selectById" resultMap="sessionMap">
+        SELECT s.*, c.name AS customer_name
+        FROM biz_chat_session s
+        LEFT JOIN biz_customer c ON s.customer_id = c.id
+        WHERE s.id = #{id}
+    </select>
+
+    <select id="selectBySessionNo" resultMap="sessionMap">
+        SELECT s.*, c.name AS customer_name
+        FROM biz_chat_session s
+        LEFT JOIN biz_customer c ON s.customer_id = c.id
+        WHERE s.session_no = #{sessionNo}
+    </select>
+
+    <select id="selectByUserId" resultMap="sessionMap">
+        SELECT s.*, c.name AS customer_name
+        FROM biz_chat_session s
+        LEFT JOIN biz_customer c ON s.customer_id = c.id
+        WHERE s.user_id = #{userId}
+        ORDER BY s.update_time DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <update id="touchUpdateTime">
+        UPDATE biz_chat_session SET update_time = NOW() WHERE id = #{id}
+    </update>
+</mapper>

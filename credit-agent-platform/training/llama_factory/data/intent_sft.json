@@ -1,0 +1,5002 @@
+[
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请贷款需要什么流程",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，兴业经营贷的申请入口在哪里，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "信享贷的申请入口在哪里，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，给车行客户写个车贷推广话术呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，学子助学贷最多能贷多少，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，谢谢你啊，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，别跟我绕了，叫人工来",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷是按月还还是到期还本",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，周末愉快，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想借10万，2年内还清，征信良好，推荐个合适的呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，生成一篇信享贷的公众号推文开头啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，税易贷的申请入口在哪里",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，消费贷和经营贷有什么区别",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，转人工？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，利息是按月付还是到期一起付啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，信享贷最多能贷多少啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，你好，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，要提供收入证明吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，学子助学贷最近利率有优惠吗啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，你好？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想了解一下消费贷款，介绍一下，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，个体户申请要营业执照吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我想了解一下贷款，你们有啥产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，谢谢你啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，车易贷的起借金额是多少啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，信享贷是按月还还是到期还本哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末愉快呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，帮我出三条薪易贷的推广标题哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，帮我看看我这种条件能申请哪个产品哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，学子助学贷的费率怎么算呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，刚买了房想店里周转，差20万，帮我匹配个产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，兴业经营贷和其他消费贷比有什么优势呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "联系一下我的客户经理，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，想贷15万，你们额度够吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "还不上可以协商延期吗呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我月收入1万5，想借80万买车，帮我推荐一下",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，房抵贷要准备哪些资料呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，想贷5万，你们额度够吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，薪易贷最近利率有优惠吗，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "兴业经营贷是按月还还是到期还本",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，刚买了房想看病，差20万，帮我匹配个产品啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "等额本息和先息后本哪个划算呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，额度可以提升吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，没什么事了，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，房抵贷要准备哪些资料啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，借15万一年利息多少钱？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我要找人工客服呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，安居房抵贷是按月还还是到期还本，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，早上好，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，税易贷的利率跟纳税等级有关吗，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，有没有不需要抵押的贷款产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，申请贷款需要什么流程",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "提前还款能省多少利息，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，税易贷和其他消费贷比有什么优势啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，自由职业没有抵押物，能贷多少呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，审批大概要多久？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，额度可以提升吗呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，帮我出三条兴业经营贷的推广标题，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，材料不齐可以先提交吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，这个问题我要跟人工说",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，联系一下我的客户经理哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给极速信用贷写个海报宣传语，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要去网点面签吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "机器人答非所问，转人工？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "哈哈好的",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，车贷有哪些选择，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，给安居房抵贷写个海报宣传语，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，麻烦介绍一下你们的信贷产品？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "再见，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，哈哈好的？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我要投诉，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷和消费贷哪个更适合大额支出哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，支持哪些还款方式",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，联系一下我的客户经理",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷的利率跟纳税等级有关吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，兴业经营贷是什么样的产品，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，哈哈好的啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，帮我出三条税易贷的推广标题",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "安居房抵贷最多能贷多少，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，辛苦了呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷和消费贷哪个更适合大额支出",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，这个问题我要跟人工说呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，写个面向上班族客群的营销文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，机器人答非所问，转人工，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，给车行客户写个车贷推广话术哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，你们贷款利率最低多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一篇车易贷的公众号推文开头呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，你们都有什么贷款产品？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，为什么我的额度只有这么多",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，今天天气真不错哈",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我征信一般，想借15万，有戏吗，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，可以提前还款吗，有违约金吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "能介绍下车易贷吗？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，你叫什么名字，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，申请兴业经营贷需要什么材料，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，这个问题我要跟人工说",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，帮我写一段薪易贷的朋友圈文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，可以提前还款吗，有违约金吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，税易贷的起借金额是多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我想了解一下贷款，你们有啥产品，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，周末可以提交申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月薪八千想贷5万，装修用，能批吗哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，把这段文案改得更有吸引力",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，申请之后多久能放款",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，再见",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，申请信享贷需要什么材料？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，辛苦了",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，联系一下我的客户经理？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，帮我出三条税易贷的推广标题哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借20万分3年还，利息一共多少，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，联系一下我的客户经理呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，还款日可以修改吗，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，要提供收入证明吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，车贷有哪些选择，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，没什么事了哈",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，有没有真人服务，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，想了解一下消费贷款，介绍一下",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，你叫什么名字，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写个面向上班族客群的营销文案呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，要提供收入证明吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，消费贷和经营贷有什么区别哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，学生证可以申请助学贷吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我要找人工客服啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，机器人答非所问，转人工，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，支持哪些还款方式，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要找人工客服呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我想了解一下贷款，你们有啥产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，联系一下我的客户经理哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，办理贷款第一步要做什么？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，周末愉快，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷利率是不是比信用贷低呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，小微企业贷款有哪些产品可以了解哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，月入一万大概能批多少额度哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，把这段文案改得更有吸引力",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我是大学生，需要50万周转，能申请什么产品啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "机器人答非所问，转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想了解一下消费贷款，介绍一下呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一条贷款产品的短信推广话术呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月薪八千想贷100万，孩子上学用，能批吗",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，需要去网点面签吗，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，额度可以提升吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，税易贷最近利率有优惠吗呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "等额本息和先息后本哪个划算",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "学生证可以申请助学贷吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，月供是怎么算出来的，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，提前还款能省多少利息，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，审批被拒了可以再次申请吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月薪八千想贷10万，孩子上学用，能批吗，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，转人工？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "辛苦了，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，想借10万，36个月内还清，征信良好，推荐个合适的，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "可以提前还款吗，有违约金吗哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，可以提前还款吗，有违约金吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "辛苦了",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我是自由职业，需要20万周转，能申请什么产品啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，消费贷和经营贷有什么区别，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我的条件最高能申请多少额度？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，孩子要出国留学，需要100万，推荐下产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请税易贷需要什么材料啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，给我推荐一个利率低点的贷款，借30万买车，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要10万用于买车，期限1年，哪个产品合适啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月入一万大概能批多少额度",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，支持哪些还款方式",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我月收入1万5，想借30万扩大经营，帮我推荐一下，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，现在消费贷利率多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写一段突出利率低的广告文案，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，你好哈",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，需要去网点面签吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请极速信用贷需要什么材料？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请经营贷需要纳税记录吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是公务员，需要30万周转，能申请什么产品，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，能介绍下学子助学贷吗呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，写个面向上班族客群的营销文案啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月供是怎么算出来的哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，需要15万用于孩子上学，期限36个月，哪个产品合适",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，审批被拒了可以再次申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我要投诉",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，联系一下我的客户经理呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，可以提前还款吗，有违约金吗，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是上班族，需要10万周转，能申请什么产品哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，有没有不需要抵押的贷款产品，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "大学生没有抵押物，能贷多少呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我月收入1万5，想借50万孩子上学，帮我推荐一下，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有真人服务哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，额度可以提升吗，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，线上可以办理吗？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你好",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，学生证可以申请助学贷吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请贷款需要什么流程啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，谢谢你啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，联系一下我的客户经理，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，给车行客户写个车贷推广话术啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度可以提升吗哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，我要投诉",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，材料不齐可以先提交吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请之后多久能放款",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，早上好，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，刚买了房想买车，差80万，帮我匹配个产品，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，今天天气真不错",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，薪易贷是按月还还是到期还本",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，哈哈好的啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是公务员，需要10万周转，能申请什么产品，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，为什么我的额度只有这么多，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷的利率跟纳税等级有关吗，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，有没有不需要抵押的贷款产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批大概要多久哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我是个体户，店里要店里周转，需要10万，申请什么好啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，生成一条贷款产品的短信推广话术啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请税易贷需要什么材料",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷是按月还还是到期还本呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，现在消费贷利率多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，周末可以提交申请吗？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "等额本息和先息后本哪个划算哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，想借100万，24个月内还清，征信良好，推荐个合适的",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，提前还款能省多少利息？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，机器人答非所问，转人工啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，兴业经营贷是什么样的产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，学子助学贷是按月还还是到期还本哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请贷款需要什么流程？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想借15万，6个月内还清，征信良好，推荐个合适的？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，逾期一天会上征信吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，可以提前还款吗，有违约金吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，征信报告要自己提供吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，最高额度是固定的吗，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，兴业经营贷的费率怎么算啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要打银行流水吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要80万用于看病，期限24个月，哪个产品合适",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，税易贷的利率跟纳税等级有关吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，兴业经营贷的申请入口在哪里呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，兴业经营贷的起借金额是多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，支持哪些还款方式，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，月入一万大概能批多少额度呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "还不上可以协商延期吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我是大学生，需要10万周转，能申请什么产品哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有真人服务，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，写个面向个体户客群的营销文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷要准备哪些资料呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一条贷款产品的短信推广话术",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，生成一条贷款产品的短信推广话术呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，最高额度是固定的吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，帮我写一段安居房抵贷的朋友圈文案呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷要准备哪些资料",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是个体户，店里要孩子上学，需要10万，申请什么好哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，支持哪些还款方式",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，需要15万用于进货，期限1年，哪个产品合适呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，大学生没有抵押物，能贷多少哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，想了解一下消费贷款，介绍一下呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，辛苦了？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，你们行有哪些信用贷产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，利息是按月付还是到期一起付，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，帮我写一段信享贷的朋友圈文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，刚买了房想旅游，差15万，帮我匹配个产品啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一篇车易贷的公众号推文开头",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请贷款需要什么流程，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，申请经营贷需要纳税记录吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要打银行流水吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，生成一条贷款产品的短信推广话术呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车贷有哪些选择哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度批下来不用会收回去吗哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，辛苦了呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，早上好？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，提前还款能省多少利息？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "安居房抵贷的费率怎么算，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，今天天气真不错啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，今天天气真不错呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "学子助学贷的利率是多少，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，月供是怎么算出来的",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，想贷15万，你们额度够吗呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，刚买了房想买车，差80万，帮我匹配个产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，学子助学贷和其他消费贷比有什么优势",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，给学子助学贷写个海报宣传语啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，月入一万大概能批多少额度",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "在吗呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，申请兴业经营贷需要什么材料，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请经营贷需要纳税记录吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，给车易贷写个海报宣传语",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我想了解一下贷款，你们有啥产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我润色一下这段营销文案呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，房抵贷和消费贷哪个更适合大额支出啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，利息是按月付还是到期一起付？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，安居房抵贷的起借金额是多少哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写一段突出利率低的广告文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，学生证可以申请助学贷吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "上班族没有抵押物，能贷多少，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，帮我润色一下这段营销文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，月供是怎么算出来的，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，今天天气真不错呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "薪易贷是什么样的产品，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，车易贷的起借金额是多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，这个问题我要跟人工说",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们贷款利率最低多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，联系一下我的客户经理？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，想借30万，3年内还清，征信良好，推荐个合适的，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，帮我写一段薪易贷的朋友圈文案啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，房抵贷利率是不是比信用贷低",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，孩子要出国留学，需要15万，推荐下产品，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度可以提升吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "利息是按月付还是到期一起付哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，帮我接客户经理哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "提前还款能省多少利息，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请经营贷需要纳税记录吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "个体户申请要营业执照吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，现在消费贷利率多少啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "支持哪些还款方式，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，等额本息和先息后本哪个划算啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，借15万一年利息多少钱哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月入一万大概能批多少额度啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷要准备哪些资料，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，学生证可以申请助学贷吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，办理贷款第一步要做什么呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，税易贷的利率是多少啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "还不上可以协商延期吗哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，再见？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，兴业经营贷最多能贷多少？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你是机器人吗，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要打银行流水吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想贷10万，你们额度够吗呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "没什么事了，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，提前还款能省多少利息，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有不需要抵押的贷款产品？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，帮我接客户经理，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一条贷款产品的短信推广话术，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "为什么我的额度只有这么多",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，征信报告要自己提供吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，帮我写一段薪易贷的朋友圈文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，逾期一天会上征信吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，周末可以提交申请吗啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给我推荐一个利率低点的贷款，借20万孩子上学",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借100万分1年还，利息一共多少哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想借80万，3年内还清，征信良好，推荐个合适的",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，薪易贷和其他消费贷比有什么优势",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "提前还款能省多少利息",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给车行客户写个车贷推广话术，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，小微企业贷款有哪些产品可以了解啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我想了解一下贷款，你们有啥产品？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，个体户申请要营业执照吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月入一万大概能批多少额度哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "可以提前还款吗，有违约金吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，学生证可以申请助学贷吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车易贷是什么样的产品哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，额度批下来不用会收回去吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，今天天气真不错，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，征信报告要自己提供吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写一段突出利率低的广告文案呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，谢谢你啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，额度可以提升吗，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我月收入1万5，想借30万装修，帮我推荐一下呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我征信一般，想借10万，有戏吗",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "薪易贷最近利率有优惠吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，能介绍下极速信用贷吗哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要打银行流水吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "谢谢你啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "安居房抵贷的申请入口在哪里",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，支持哪些还款方式，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末可以提交申请吗呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，帮我润色一下这段营销文案？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，周末可以提交申请吗，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，想贷20万，你们额度够吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，极速信用贷是什么样的产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，办理贷款第一步要做什么，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，审批被拒了可以再次申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我月收入1万5，想借100万旅游，帮我推荐一下？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，线上可以办理吗，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，帮我写一段税易贷的朋友圈文案啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借50万分24个月还，利息一共多少呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，学生证可以申请助学贷吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "安居房抵贷最多能贷多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，审批大概要多久哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，怎么申请信享贷哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度可以提升吗，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，征信报告要自己提供吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度可以提升吗啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，帮我出三条学子助学贷的推广标题，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，借80万一年利息多少钱呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，月供是怎么算出来的哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，办理贷款第一步要做什么哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是个体户，需要30万周转，能申请什么产品？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "要提供收入证明吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，需要打银行流水吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，还不上可以协商延期吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "逾期一天会上征信吗哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "别跟我绕了，叫人工来",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，哈哈好的，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，需要去网点面签吗呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有真人服务",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，信享贷最多能贷多少，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我征信一般，想借80万，有戏吗？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，提前还款能省多少利息呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，联系一下我的客户经理",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，税易贷的利率是多少哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，给我推荐一个利率低点的贷款，借30万装修？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，需要去网点面签吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我出三条薪易贷的推广标题？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请兴业经营贷需要什么材料",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "把这段文案改得更有吸引力，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，学生证可以申请助学贷吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，在吗",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，写个面向公务员客群的营销文案啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，机器人答非所问，转人工，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，小微企业贷款有哪些产品可以了解？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，周末可以提交申请吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，薪易贷的申请入口在哪里啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我是大学生，需要100万周转，能申请什么产品，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，月薪八千想贷50万，旅游用，能批吗，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月供是怎么算出来的",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，哈哈好的",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，等额本息和先息后本哪个划算啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，极速信用贷是按月还还是到期还本，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，年化利率和月利率怎么换算",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "消费贷和经营贷有什么区别啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，在吗",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有不需要抵押的贷款产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末可以提交申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，为什么我的额度只有这么多哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我润色一下这段营销文案哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，审批被拒了可以再次申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月供是怎么算出来的啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "提前还款能省多少利息呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，需要打银行流水吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，信享贷的起借金额是多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，最高额度是固定的吗，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "怎么申请学子助学贷",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，材料不齐可以先提交吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，早上好，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷的利率跟纳税等级有关吗，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给我推荐一个利率低点的贷款，借20万旅游",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，个体户申请要营业执照吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "早上好",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "等额本息和先息后本哪个划算，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是大学生，需要80万周转，能申请什么产品？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，税易贷最近利率有优惠吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，别跟我绕了，叫人工来哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，材料不齐可以先提交吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，需要打银行流水吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，房抵贷要准备哪些资料呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给学子助学贷写个海报宣传语呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，信享贷最多能贷多少啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我的条件最高能申请多少额度？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，申请经营贷需要纳税记录吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，周末可以提交申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，你叫什么名字啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，线上可以办理吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，生成一篇税易贷的公众号推文开头呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，给车易贷写个海报宣传语哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，帮我出三条安居房抵贷的推广标题？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，给车行客户写个车贷推广话术，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，再见，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，兴业经营贷最近利率有优惠吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，个体户申请要营业执照吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，车易贷年化利率几厘",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "辛苦了，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要打银行流水吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，需要打银行流水吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，借10万分3年还，利息一共多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，税易贷年化利率几厘哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，谢谢你啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，个体户申请要营业执照吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "个体户申请要营业执照吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，学生证可以申请助学贷吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你是机器人吗",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，安居房抵贷年化利率几厘呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，安居房抵贷最近利率有优惠吗呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要去网点面签吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，可以提前还款吗，有违约金吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，帮我接客户经理啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要80万用于孩子上学，期限24个月，哪个产品合适哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，别跟我绕了，叫人工来，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们行有哪些信用贷产品，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，今天天气真不错哈",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借100万一年利息多少钱啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，兴业经营贷和其他消费贷比有什么优势",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，学生证可以申请助学贷吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月供是怎么算出来的",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，想贷15万，你们额度够吗哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，写一段突出利率低的广告文案哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，学子助学贷年化利率几厘呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我月收入1万5，想借20万旅游，帮我推荐一下啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们贷款利率最低多少哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，材料不齐可以先提交吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，审批大概要多久啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，别跟我绕了，叫人工来？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，需要10万用于店里周转，期限6个月，哪个产品合适呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "为什么我的额度只有这么多哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，麻烦介绍一下你们的信贷产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，谢谢你啊啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，需要去网点面签吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，车易贷的费率怎么算",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给我推荐一个利率低点的贷款，借100万旅游",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，年化利率和月利率怎么换算哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，信享贷的费率怎么算",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，能介绍下极速信用贷吗？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，可以提前还款吗，有违约金吗呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "别跟我绕了，叫人工来，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，帮我接客户经理，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，别跟我绕了，叫人工来啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我要投诉？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "再见？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，额度批下来不用会收回去吗，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请安居房抵贷需要什么材料",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，消费贷和经营贷有什么区别？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，给我推荐一个利率低点的贷款，借100万买车哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "学生证可以申请助学贷吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，年化利率和月利率怎么换算啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "联系一下我的客户经理",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，税易贷年化利率几厘哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，把这段文案改得更有吸引力啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给兴业经营贷写个海报宣传语，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，谢谢你啊？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我是个体户，店里要进货，需要100万，申请什么好？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我要找人工客服呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "把这段文案改得更有吸引力，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你们都有什么贷款产品，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，想借30万，5年内还清，征信良好，推荐个合适的？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，要提供收入证明吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，刚买了房想装修，差80万，帮我匹配个产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，给我推荐一个利率低点的贷款，借20万看病？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，机器人答非所问，转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷的起借金额是多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，小微企业贷款有哪些产品可以了解，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，没什么事了",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，房抵贷和消费贷哪个更适合大额支出，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，想了解一下消费贷款，介绍一下",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，要提供收入证明吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，还不上可以协商延期吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，极速信用贷最多能贷多少哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，个体户申请要营业执照吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，想了解一下消费贷款，介绍一下？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请车易贷需要什么材料呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦介绍一下你们的信贷产品？",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，个体户申请要营业执照吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，你们行有哪些信用贷产品哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，利息是按月付还是到期一起付？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷要准备哪些资料？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我要找人工客服",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，可以提前还款吗，有违约金吗呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我月收入1万5，想借10万进货，帮我推荐一下",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，早上好，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，车贷有哪些选择呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，还款日可以修改吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，信享贷最多能贷多少呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，房抵贷利率是不是比信用贷低呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "开公司的没有抵押物，能贷多少，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "孩子要出国留学，需要5万，推荐下产品呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，申请贷款需要什么流程啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，帮我润色一下这段营销文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，周末愉快呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我征信一般，想借100万，有戏吗",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们都有什么贷款产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "小微企业贷款有哪些产品可以了解，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，信享贷的申请入口在哪里",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，还不上可以协商延期吗呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "兴业经营贷的费率怎么算？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，想贷10万，你们额度够吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写一段突出利率低的广告文案哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "房抵贷要准备哪些资料，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，材料不齐可以先提交吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，申请贷款需要什么流程",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "利息是按月付还是到期一起付",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要投诉哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，怎么申请兴业经营贷，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，这个问题我要跟人工说？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末可以提交申请吗，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，帮我出三条学子助学贷的推广标题哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，需要去网点面签吗啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，提前还款能省多少利息",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给学子助学贷写个海报宣传语？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我是个体户，店里要旅游，需要30万，申请什么好呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，税易贷的利率跟纳税等级有关吗，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车易贷的费率怎么算？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，提前还款能省多少利息？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，帮我润色一下这段营销文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要去网点面签吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，把这段文案改得更有吸引力哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，转人工哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，你们都有什么贷款产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，你是机器人吗啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，帮我接客户经理",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，额度批下来不用会收回去吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，为什么我的额度只有这么多，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，薪易贷是什么样的产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，我是个体户，店里要看病，需要50万，申请什么好",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷的利率是多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，申请贷款需要什么流程哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "线上可以办理吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，别跟我绕了，叫人工来哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想贷80万，你们额度够吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，给车行客户写个车贷推广话术呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，兴业经营贷的起借金额是多少？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "能介绍下极速信用贷吗",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，小微企业贷款有哪些产品可以了解哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我出三条信享贷的推广标题？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，个体户申请要营业执照吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借100万分36个月还，利息一共多少啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，生成一条贷款产品的短信推广话术？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，消费贷和经营贷有什么区别哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车易贷的利率是多少，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，别跟我绕了，叫人工来，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，等额本息和先息后本哪个划算，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，刚买了房想店里周转，差50万，帮我匹配个产品？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，有没有不需要抵押的贷款产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给安居房抵贷写个海报宣传语呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，这个问题我要跟人工说，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，薪易贷最多能贷多少，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷和其他消费贷比有什么优势啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "现在消费贷利率多少，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一篇兴业经营贷的公众号推文开头",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，利息是按月付还是到期一起付哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，给车行客户写个车贷推广话术，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，再见",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，写一段突出利率低的广告文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，我要找人工客服",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请之后多久能放款啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，个体户没有抵押物，能贷多少？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，别跟我绕了，叫人工来啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "早上好啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我是个体户，店里要店里周转，需要100万，申请什么好",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我征信一般，想借10万，有戏吗？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，额度批下来不用会收回去吗哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车易贷最近利率有优惠吗，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度批下来不用会收回去吗？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要100万用于旅游，期限24个月，哪个产品合适呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我润色一下这段营销文案，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "辛苦了啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，申请贷款需要什么流程啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请经营贷需要纳税记录吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "刚买了房想扩大经营，差80万，帮我匹配个产品？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要20万用于扩大经营，期限24个月，哪个产品合适",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，月薪八千想贷5万，扩大经营用，能批吗",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，机器人答非所问，转人工",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，安居房抵贷最多能贷多少？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，今天天气真不错啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车贷有哪些选择，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我想了解一下贷款，你们有啥产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "逾期一天会上征信吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借30万一年利息多少钱，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "最高额度是固定的吗，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，申请之后多久能放款哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，极速信用贷最多能贷多少，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，孩子要出国留学，需要30万，推荐下产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "个体户申请要营业执照吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，消费贷和经营贷有什么区别，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，审批大概要多久哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我的条件最高能申请多少额度，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批被拒了可以再次申请吗呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，帮我接客户经理",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，为什么我的额度只有这么多呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请经营贷需要纳税记录吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，月入一万大概能批多少额度，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我出三条极速信用贷的推广标题哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，学生证可以申请助学贷吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要找人工客服，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，申请经营贷需要纳税记录吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，还不上可以协商延期吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，要提供收入证明吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，提前还款能省多少利息",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你们都有什么贷款产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷的利率跟纳税等级有关吗哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我要找人工客服",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，车易贷的起借金额是多少，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，审批被拒了可以再次申请吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "需要打银行流水吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，想借10万，36个月内还清，征信良好，推荐个合适的？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，生成一条贷款产品的短信推广话术",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，要提供收入证明吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，审批被拒了可以再次申请吗呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请之后多久能放款？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，申请税易贷需要什么材料，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，再见",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，税易贷的利率跟纳税等级有关吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，刚买了房想扩大经营，差5万，帮我匹配个产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "今天天气真不错",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，我要找人工客服，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，帮我出三条薪易贷的推广标题？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，支持哪些还款方式，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，麻烦介绍一下你们的信贷产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月薪八千想贷100万，扩大经营用，能批吗啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们行有哪些信用贷产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有不需要抵押的贷款产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，能介绍下安居房抵贷吗，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，你们行有哪些信用贷产品，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，周末可以提交申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "能介绍下车易贷吗，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我是个体户，店里要旅游，需要20万，申请什么好",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们贷款利率最低多少啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，你是机器人吗？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "早上好呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，写一段突出利率低的广告文案啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我想了解一下贷款，你们有啥产品哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我要投诉哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷的费率怎么算",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，年化利率和月利率怎么换算？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我是个体户，店里要孩子上学，需要5万，申请什么好呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "把这段文案改得更有吸引力",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，没什么事了啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，我要找人工客服",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，早上好",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我写一段信享贷的朋友圈文案哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，怎么申请税易贷",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要投诉",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，极速信用贷的费率怎么算，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，申请经营贷需要纳税记录吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，房抵贷利率是不是比信用贷低，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月入一万大概能批多少额度呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，给车行客户写个车贷推广话术，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，给安居房抵贷写个海报宣传语？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，办理贷款第一步要做什么呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "要提供收入证明吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，材料不齐可以先提交吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，我要找人工客服哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，哈哈好的",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，今天天气真不错",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，刚买了房想进货，差80万，帮我匹配个产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，要提供收入证明吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，孩子要出国留学，需要15万，推荐下产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，我的条件最高能申请多少额度",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，怎么申请学子助学贷，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，学子助学贷最多能贷多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，等额本息和先息后本哪个划算",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我征信一般，想借10万，有戏吗呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，有没有不需要抵押的贷款产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，怎么申请税易贷啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，房抵贷和消费贷哪个更适合大额支出啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，有没有真人服务，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批大概要多久，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "办理贷款第一步要做什么",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，极速信用贷是按月还还是到期还本，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想贷100万，你们额度够吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批被拒了可以再次申请吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，月入一万大概能批多少额度，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，房抵贷和消费贷哪个更适合大额支出",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "别跟我绕了，叫人工来？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，为什么我的额度只有这么多，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，审批被拒了可以再次申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，征信报告要自己提供吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我写一段学子助学贷的朋友圈文案？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，孩子要出国留学，需要5万，推荐下产品啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，能介绍下信享贷吗",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要80万用于孩子上学，期限6个月，哪个产品合适啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，最高额度是固定的吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，房抵贷利率是不是比信用贷低，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，需要打银行流水吗啊",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，有没有真人服务哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "怎么申请车易贷，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，月供是怎么算出来的",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末可以提交申请吗？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "最高额度是固定的吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想了解一下消费贷款，介绍一下哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，需要15万用于店里周转，期限3年，哪个产品合适哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，你们都有什么贷款产品呢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，学子助学贷年化利率几厘",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，利息是按月付还是到期一起付",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，线上可以办理吗呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，机器人答非所问，转人工，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，还款日可以修改吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，逾期一天会上征信吗？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我月收入1万5，想借50万扩大经营，帮我推荐一下",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，把这段文案改得更有吸引力呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你是机器人吗？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "利息是按月付还是到期一起付啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你们贷款利率最低多少？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有不需要抵押的贷款产品，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，兴业经营贷的起借金额是多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，借30万一年利息多少钱",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，兴业经营贷的利率是多少呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，还不上可以协商延期吗啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末愉快，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，生成一篇税易贷的公众号推文开头呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "支持哪些还款方式？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，为什么我的额度只有这么多，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，安居房抵贷年化利率几厘",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我接客户经理？",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，机器人答非所问，转人工哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，额度批下来不用会收回去吗哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要投诉啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度批下来不用会收回去吗啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷的申请入口在哪里哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，月入一万大概能批多少额度？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "还款日可以修改吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，还款日可以修改吗哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末可以提交申请吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，有没有真人服务",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "薪易贷最多能贷多少",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "转人工，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "小微企业贷款有哪些产品可以了解啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，生成一篇税易贷的公众号推文开头呢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，极速信用贷和其他消费贷比有什么优势啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，有没有真人服务哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请贷款需要什么流程",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "个体户申请要营业执照吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写一段突出利率低的广告文案，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，给车行客户写个车贷推广话术哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，月薪八千想贷50万，孩子上学用，能批吗啊",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，申请贷款需要什么流程，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，个体户申请要营业执照吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，申请极速信用贷需要什么材料，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，支持哪些还款方式？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我是自由职业，需要5万周转，能申请什么产品，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "机器人答非所问，转人工呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，我要找人工客服，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，申请之后多久能放款哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，安居房抵贷最近利率有优惠吗啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，额度可以提升吗",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，月供是怎么算出来的哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，在吗啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车贷有哪些选择啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，极速信用贷的起借金额是多少，在线等",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，想贷50万，你们额度够吗哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，怎么申请信享贷",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，税易贷最近利率有优惠吗啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，哈哈好的啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "还不上可以协商延期吗啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，你好啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度可以提升吗呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，学生证可以申请助学贷吗？",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批被拒了可以再次申请吗，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，有没有真人服务",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "征信报告要自己提供吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "再见",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，个体户没有抵押物，能贷多少",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我的条件最高能申请多少额度？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，联系一下我的客户经理，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，借20万一年利息多少钱，谢谢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，提前还款能省多少利息，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，征信报告要自己提供吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，借15万一年利息多少钱？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "支持哪些还款方式",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "在吗",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "没什么事了呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，学生证可以申请助学贷吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想贷50万，你们额度够吗啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，谢谢你啊啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，周末可以提交申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，车易贷的申请入口在哪里啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，有没有真人服务啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "转人工，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "极速信用贷的申请入口在哪里，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，利息是按月付还是到期一起付？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷是按月还还是到期还本啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，车贷有哪些选择哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，需要去网点面签吗啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，还不上可以协商延期吗？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，想了解一下消费贷款，介绍一下",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，审批被拒了可以再次申请吗，在线等",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月供是怎么算出来的？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，征信报告要自己提供吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "想借100万，36个月内还清，征信良好，推荐个合适的",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，信享贷年化利率几厘啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，利息是按月付还是到期一起付",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，学子助学贷和其他消费贷比有什么优势，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "消费贷和经营贷有什么区别，谢谢",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，可以提前还款吗，有违约金吗哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，写一段突出利率低的广告文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，辛苦了呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "月供是怎么算出来的呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末可以提交申请吗，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "逾期一天会上征信吗啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，生成一条贷款产品的短信推广话术",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，生成一篇极速信用贷的公众号推文开头",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，这个问题我要跟人工说，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，还不上可以协商延期吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批被拒了可以再次申请吗",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，你好？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，兴业经营贷的利率是多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，帮我写一段薪易贷的朋友圈文案哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，额度批下来不用会收回去吗啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，审批被拒了可以再次申请吗啊",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，办理贷款第一步要做什么",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我的条件最高能申请多少额度？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，可以提前还款吗，有违约金吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，给车行客户写个车贷推广话术",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，月供是怎么算出来的，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，给税易贷写个海报宣传语，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我想了解一下贷款，你们有啥产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我接客户经理",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请之后多久能放款哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我月收入1万5，想借100万店里周转，帮我推荐一下？",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "薪易贷最多能贷多少哈",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，办理贷款第一步要做什么呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "支持哪些还款方式，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "写个面向上班族客群的营销文案，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "这个问题我要跟人工说",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，还款日可以修改吗呢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，还不上可以协商延期吗",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "额度可以提升吗，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "今天天气真不错？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，把这段文案改得更有吸引力？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，还款日可以修改吗哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，小微企业贷款有哪些产品可以了解",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "有没有不需要抵押的贷款产品哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，帮我写一段兴业经营贷的朋友圈文案啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，辛苦了",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，我的条件最高能申请多少额度",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我是个体户，店里要店里周转，需要20万，申请什么好哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "这个问题我要跟人工说呢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，等额本息和先息后本哪个划算，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，税易贷的利率跟纳税等级有关吗",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，等额本息和先息后本哪个划算哈",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "兴业经营贷年化利率几厘",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，税易贷的利率跟纳税等级有关吗呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，孩子要出国留学，需要5万，推荐下产品，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，生成一篇信享贷的公众号推文开头",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "现在消费贷利率多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "征信报告要自己提供吗，在线等",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "这个问题我要跟人工说，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，月入一万大概能批多少额度啊",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，信享贷年化利率几厘啊",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "税易贷的利率是多少？",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，房抵贷要准备哪些资料呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要找人工客服",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，我是个体户，店里要看病，需要50万，申请什么好哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，你们都有什么贷款产品",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，我要找人工客服啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，房抵贷要准备哪些资料哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，个体户申请要营业执照吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，兴业经营贷年化利率几厘哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你们贷款利率最低多少，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "孩子要出国留学，需要30万，推荐下产品，在线等",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "薪易贷的利率是多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，在吗，在线等",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你叫什么名字，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要去网点面签吗？",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车易贷是按月还还是到期还本啊",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，借15万分3年还，利息一共多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "还不上可以协商延期吗，谢谢",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "车易贷和其他消费贷比有什么优势，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我是自由职业，需要80万周转，能申请什么产品哈",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，额度批下来不用会收回去吗呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，早上好啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，你们都有什么贷款产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，辛苦了？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，孩子要出国留学，需要50万，推荐下产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，你们贷款利率最低多少哈",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，需要去网点面签吗呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，这个问题我要跟人工说，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "别跟我绕了，叫人工来哈",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，生成一篇极速信用贷的公众号推文开头啊",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，可以提前还款吗，有违约金吗？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "给车行客户写个车贷推广话术哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，写一段突出利率低的广告文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，线上可以办理吗哈",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，有没有真人服务，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，我要找人工客服，在线等",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，把这段文案改得更有吸引力哈",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，要提供收入证明吗呢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，把这段文案改得更有吸引力，在线等",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，车贷有哪些选择",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你是机器人吗",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，生成一篇车易贷的公众号推文开头",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我接客户经理，谢谢",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，给车易贷写个海报宣传语，谢谢",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，再见呢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "为什么我的额度只有这么多呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，利息是按月付还是到期一起付",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，能介绍下信享贷吗，在线等",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "孩子要出国留学，需要5万，推荐下产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，申请经营贷需要纳税记录吗哈",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，兴业经营贷的利率是多少呢",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "借30万分24个月还，利息一共多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，审批大概要多久，谢谢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，怎么申请安居房抵贷",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "要提供收入证明吗",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，薪易贷最多能贷多少呢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "安居房抵贷是按月还还是到期还本，在线等",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，月薪八千想贷50万，孩子上学用，能批吗呢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "谢谢你啊啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，周末愉快",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，房抵贷利率是不是比信用贷低，在线等",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我要找人工客服啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，我的条件最高能申请多少额度",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，再见啊",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，申请之后多久能放款",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "生成一篇薪易贷的公众号推文开头？",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，个体户申请要营业执照吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，为什么我的额度只有这么多？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "今天天气真不错，谢谢",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "申请经营贷需要纳税记录吗，谢谢",
+    "output": "MATERIALS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "审批大概要多久",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，写一段突出利率低的广告文案",
+    "output": "COPYWRITING"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，我想了解一下贷款，你们有啥产品啊",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，现在消费贷利率多少",
+    "output": "RATE_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，提前还款能省多少利息？",
+    "output": "REPAYMENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，车易贷和其他消费贷比有什么优势哈",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，帮我看看我这种条件能申请哪个产品",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "您好，额度批下来不用会收回去吗，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "帮我接客户经理啊",
+    "output": "HUMAN_AGENT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "打扰一下，最高额度是固定的吗，谢谢",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，办理贷款第一步要做什么呢",
+    "output": "APPLY_PROCESS"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "周末愉快？",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "麻烦问下，你叫什么名字哈",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，想借50万，24个月内还清，征信良好，推荐个合适的，谢谢",
+    "output": "CREDIT_RECOMMEND"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "诶，你是机器人吗",
+    "output": "CHITCHAT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "你好，车贷有哪些选择",
+    "output": "PRODUCT_CONSULT"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "请问一下，安居房抵贷最多能贷多少？",
+    "output": "LIMIT_QUERY"
+  },
+  {
+    "instruction": "你是银行信贷助手的意图分类器。请判断用户问题的意图，只输出意图标签编码（如 PRODUCT_CONSULT），不要输出其他内容。",
+    "input": "我的条件最高能申请多少额度呢",
+    "output": "LIMIT_QUERY"
+  }
+]

@@ -1,0 +1,27 @@
+# 密钥与环境（绝不提交）
+.env
+*.local
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Node / 前端
+node_modules/
+dist/
+
+# Java / Maven
+target/
+.tools/
+.m2/
+
+# 日志与临时文件
+*.log
+chat-live.json
+chat-payload.json
+
+# 系统文件
+.DS_Store
+Thumbs.db

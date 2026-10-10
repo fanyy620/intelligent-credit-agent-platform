@@ -1,0 +1,49 @@
+### LLaMA-Factory LoRA SFT 配置：信贷意图路由模型
+### 基座：Qwen2.5-1.5B-Instruct（小模型，单卡 24G 可训）
+### 用法：在 LLaMA-Factory 根目录执行
+###   llamafactory-cli train <本文件路径>
+### 或：python src/train_bash.py <本文件路径>
+
+### model
+model_name_or_path: Qwen/Qwen2.5-1.5B-Instruct
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all            # 全线性层挂 LoRA，小数据下比只挂 q/v 更稳
+lora_rank: 16               # 经验值：1000 条小数据 8-16 足够，过大易过拟合
+lora_alpha: 32              # alpha = 2 * rank 是常用配比
+lora_dropout: 0.05
+
+### dataset
+dataset: intent_sft         # 对应 dataset_info.json 中的键
+template: qwen
+cutoff_len: 512             # 意图样本都很短，512 足够且省显存
+max_samples: 1000
+overwrite_cache: true
+preprocessing_num_workers: 4
+
+### output
+output_dir: saves/qwen2.5-1.5b-intent/lora
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 4     # 等效 batch = 32
+learning_rate: 1.0e-4              # LoRA 小数据常用 1e-4 ~ 2e-4
+num_train_epochs: 3.0              # 小数据 2-4 轮；>5 轮后验证集开始过拟合
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval（划分 10% 做验证，监控 accuracy/loss 拐点）
+val_size: 0.1
+per_device_eval_batch_size: 8
+eval_strategy: steps
+eval_steps: 50

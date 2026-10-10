@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.credit.web.mapper.DashboardMapper">
+
+    <!-- 今日对话轮数：按客户消息条数计 -->
+    <select id="selectTodayChatCount" resultType="long">
+        SELECT COUNT(*) FROM biz_chat_message
+        WHERE role = 'user' AND DATE(create_time) = CURDATE()
+    </select>
+
+    <!-- 今日推荐次数 -->
+    <select id="selectTodayRecommendCount" resultType="long">
+        SELECT COUNT(*) FROM biz_recommend_record
+        WHERE DATE(create_time) = CURDATE()
+    </select>
+
+    <!-- 合规通过率汇总（total/passed，首页卡片用） -->
+    <select id="selectComplianceSummary" resultType="map">
+        SELECT COUNT(*) AS total,
+               COALESCE(SUM(compliant), 0) AS passed
+        FROM biz_copy_record
+    </select>
+
+    <!-- 意图分布（assistant 消息按意图聚合） -->
+    <select id="selectIntentDistribution" resultType="map">
+        SELECT intent, intent_zh, COUNT(*) AS cnt
+        FROM biz_chat_message
+        WHERE intent IS NOT NULL AND intent != ''
+        GROUP BY intent, intent_zh
+        ORDER BY cnt DESC
+    </select>
+
+    <select id="selectCustomerCount" resultType="long">
+        SELECT COUNT(*) FROM biz_customer
+    </select>
+
+    <select id="selectSessionCount" resultType="long">
+        SELECT COUNT(*) FROM biz_chat_session
+    </select>
+</mapper>

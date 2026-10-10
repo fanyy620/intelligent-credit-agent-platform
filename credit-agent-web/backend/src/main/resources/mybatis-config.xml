@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- MyBatis 全局配置：映射规则与通用设置（Mapper XML 在 applicationContext.xml 中扫描） -->
+<configuration>
+    <settings>
+        <!-- 下划线列名 → 驼峰属性 自动映射 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- 控制台打印 SQL（生产环境关闭） -->
+        <setting name="logImpl" value="SLF4J"/>
+        <setting name="cacheEnabled" value="false"/>
+        <setting name="lazyLoadingEnabled" value="false"/>
+    </settings>
+</configuration>
